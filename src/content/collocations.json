@@ -1,0 +1,2969 @@
+{
+  "generated": "2026-11-10T05:50:25Z",
+  "count": 27,
+  "lessons": [
+    {
+      "id": "2026-09-11-impact-effect",
+      "lesson": 1,
+      "date": "2026-09-11",
+      "theme": "Impact / Effect",
+      "title": "Impact / Effect",
+      "review": [],
+      "collocations": [
+        {
+          "phrase": "have a significant impact on",
+          "weak": "affect a lot",
+          "yue": "對……有重大影響",
+          "frame": "X has a significant impact on Y",
+          "model": "Online learning has a significant impact on students' study habits.",
+          "mistake": "impact to → 用 on"
+        },
+        {
+          "phrase": "have a profound impact on",
+          "weak": "deep/strong effect",
+          "yue": "對……有深遠影響",
+          "frame": "X has a profound impact on Y",
+          "model": "Childhood education has a profound impact on a person's future development.",
+          "mistake": "profound 唔適合形容輕微影響"
+        },
+        {
+          "phrase": "have a detrimental / adverse effect on",
+          "weak": "bad for",
+          "yue": "對……有不良影響",
+          "frame": "X has a detrimental effect on Y",
+          "model": "Excessive screen time can have a detrimental effect on teenagers' sleep quality.",
+          "mistake": "避免寫 bad effect on"
+        },
+        {
+          "phrase": "make a significant difference to",
+          "weak": "help a lot",
+          "yue": "對……有明顯分別",
+          "frame": "X can make a significant difference to Y",
+          "model": "Small lifestyle changes can make a significant difference to public health.",
+          "mistake": "difference on → 用 to"
+        },
+        {
+          "phrase": "contribute to",
+          "weak": "help cause",
+          "yue": "促成／導致",
+          "frame": "X contributes to Y",
+          "model": "Poor diet contributes to a wide range of health problems.",
+          "mistake": "呢度唔只係 donate money"
+        }
+      ],
+      "drill": {
+        "items": [
+          {
+            "id": "A",
+            "prompt": "改寫得更學術：用今日搭配取代弱寫法。\n弱：affect a lot",
+            "type": "rewrite",
+            "answer": "have a significant impact on",
+            "choices": [],
+            "accept": "have a significant impact on"
+          },
+          {
+            "id": "B",
+            "prompt": "選正確：Which form is correct for this lesson's collocation?\n（impact / imapct）",
+            "type": "choose",
+            "answer": "impact",
+            "choices": [
+              "impact",
+              "imapct"
+            ]
+          },
+          {
+            "id": "C",
+            "prompt": "填空：Small lifestyle changes can ______ public health.",
+            "type": "fill",
+            "answer": "make a significant difference to",
+            "choices": [],
+            "accept": "make a significant difference to"
+          }
+        ]
+      },
+      "passage": "The phased rollout of District Health Centres and wider eHealth take-up now **have a significant impact on** how ordinary households first seek care in Hong Kong. For older residents managing several long-term conditions, earlier community triage can **have a profound impact on** whether a minor complaint escalates into an Accident and Emergency visit. At the same time, poorly designed digital tools may **have a detrimental effect on** take-up among people with limited smartphone skills, widening rather than narrowing the service gap. On balance, clearer booking paths and means-tested fee relief can **make a significant difference to** attendance at family-medicine slots. Together, these steps **contribute to** a more preventive primary-care model, though the fiscal envelope and staffing remain subject to careful review.",
+      "tasks": [
+        {
+          "q": "文中邊啲措施可以 make a significant difference to attendance？",
+          "answer": "clearer booking paths and means-tested fee relief",
+          "type": "open"
+        },
+        {
+          "q": "用自己一句解釋點解 digital tools 可能有 detrimental effect（1 句）",
+          "answer": "（例）older / less digitally skilled users may struggle, so take-up falls and the service gap widens",
+          "type": "open"
+        },
+        {
+          "q": "True / False：Passage 話 eHealth 一定可以完全取代 Accident and Emergency。",
+          "answer": "False",
+          "type": "tf",
+          "choices": [
+            "True",
+            "False"
+          ]
+        }
+      ],
+      "nextTheme": "Cause and result",
+      "sourceFile": "2026-09-11 - Impact Effect.md"
+    },
+    {
+      "id": "2026-09-12-cause-and-result",
+      "lesson": 2,
+      "date": "2026-09-12",
+      "theme": "Cause and Result",
+      "title": "Cause and Result",
+      "review": [],
+      "collocations": [
+        {
+          "phrase": "lead to",
+          "weak": "cause/make",
+          "yue": "導致",
+          "frame": "X leads to Y / lead to + V-ing",
+          "model": "Heavy traffic often leads to longer commuting times.",
+          "mistake": "lead to rise → lead to rising costs"
+        },
+        {
+          "phrase": "result in",
+          "weak": "cause/bring",
+          "yue": "造成結果",
+          "frame": "X results in Y",
+          "model": "Poor diet can result in serious health problems.",
+          "mistake": "唔好同 result from 混淆"
+        },
+        {
+          "phrase": "stem from",
+          "weak": "come from/because of",
+          "yue": "源自",
+          "frame": "X stems from Y",
+          "model": "Many social tensions stem from economic inequality.",
+          "mistake": "stem from because 係重複"
+        },
+        {
+          "phrase": "give rise to",
+          "weak": "cause/create",
+          "yue": "引發",
+          "frame": "X gives rise to Y",
+          "model": "Rapid urbanisation has given rise to housing shortages.",
+          "mistake": "通常唔寫 I give rise to"
+        },
+        {
+          "phrase": "be attributed to",
+          "weak": "because of",
+          "yue": "被歸因於",
+          "frame": "X is/can be attributed to Y",
+          "model": "The decline in reading can be attributed to excessive screen time.",
+          "mistake": "較自然用被動 be attributed to"
+        }
+      ],
+      "drill": {
+        "items": [
+          {
+            "id": "A",
+            "prompt": "改寫得更學術：用今日搭配取代弱寫法。\n弱：cause/make",
+            "type": "rewrite",
+            "answer": "lead to",
+            "choices": [],
+            "accept": "lead to"
+          },
+          {
+            "id": "B",
+            "prompt": "選正確：Which form is correct for this lesson's collocation?\n（result / reuslt）",
+            "type": "choose",
+            "answer": "result",
+            "choices": [
+              "result",
+              "reuslt"
+            ]
+          },
+          {
+            "id": "C",
+            "prompt": "填空：Write the collocation that means「引發」。",
+            "type": "fill",
+            "answer": "give rise to",
+            "choices": [],
+            "accept": "give rise to"
+          }
+        ]
+      },
+      "passage": "Long public-rental-housing waiting lists in Hong Kong rarely **stem from** a single administrative delay. Tight land supply and strong demand for small flats **lead to** intense competition for scarce units, which can **result in** families remaining in subdivided premises for years. Rapid growth in applications for Light Public Housing has also **given rise to** pressure on processing capacity, even where authorities invite applications in phases. On balance, prolonged waits should not be **attributed to** individual tenants alone; they reflect a structural mismatch between household formation and the pace at which new supply can be completed. Bridging that gap remains a central task within the current housing fiscal envelope.",
+      "tasks": [
+        {
+          "q": "文中話 prolonged waits 不應只 attributed to 邊啲人？",
+          "answer": "individual tenants（alone）",
+          "type": "open"
+        },
+        {
+          "q": "用自己一句解釋 Light Public Housing applications 點樣 give rise to pressure（1 句）",
+          "answer": "（例）applications grew quickly, so processing capacity came under pressure",
+          "type": "open"
+        },
+        {
+          "q": "True / False：Passage 話 waiting lists 只係因為單一行政延誤。",
+          "answer": "False",
+          "type": "tf",
+          "choices": [
+            "True",
+            "False"
+          ]
+        }
+      ],
+      "nextTheme": "Problems and threats",
+      "sourceFile": "2026-09-12 - Cause and Result.md"
+    },
+    {
+      "id": "2026-09-13-problems-and-threats",
+      "lesson": 3,
+      "date": "2026-09-13",
+      "theme": "Problems and Threats",
+      "title": "Problems and Threats",
+      "review": [],
+      "collocations": [
+        {
+          "phrase": "pose a threat to",
+          "weak": "be dangerous for",
+          "yue": "對……構成威脅",
+          "frame": "pose a (serious) threat to + N",
+          "model": "Rising sea levels pose a serious threat to coastal cities.",
+          "mistake": "threat for → 用 to"
+        },
+        {
+          "phrase": "raise concerns about",
+          "weak": "make people worry",
+          "yue": "引起關注／憂慮",
+          "frame": "raise concerns about + N/V-ing",
+          "model": "The new policy has raised concerns about data privacy.",
+          "mistake": "concerns of → 用 about"
+        },
+        {
+          "phrase": "be faced with",
+          "weak": "have a problem",
+          "yue": "面對",
+          "frame": "be faced with + N",
+          "model": "Many graduates are faced with intense competition in the job market.",
+          "mistake": "faced by → 用 with"
+        },
+        {
+          "phrase": "exacerbate the problem",
+          "weak": "make worse",
+          "yue": "令問題惡化",
+          "frame": "exacerbate the problem/situation",
+          "model": "Cutting education funding may exacerbate the problem of youth unemployment.",
+          "mistake": "exacerbate 唔等於 exasperate"
+        },
+        {
+          "phrase": "be a major concern",
+          "weak": "big worry",
+          "yue": "重大關注點",
+          "frame": "be a major concern for/among",
+          "model": "Housing affordability is a major concern for young adults in Hong Kong.",
+          "mistake": "唔好寫 a major concerning"
+        }
+      ],
+      "drill": {
+        "items": [
+          {
+            "id": "A",
+            "prompt": "改寫得更學術：用今日搭配取代弱寫法。\n弱：be dangerous for",
+            "type": "rewrite",
+            "answer": "pose a threat to",
+            "choices": [],
+            "accept": "pose a threat to"
+          },
+          {
+            "id": "B",
+            "prompt": "選正確：Which form is correct for this lesson's collocation?\n（about / aobut）",
+            "type": "choose",
+            "answer": "about",
+            "choices": [
+              "about",
+              "aobut"
+            ]
+          },
+          {
+            "id": "C",
+            "prompt": "填空：Cutting education funding may ______ of youth unemployment.",
+            "type": "fill",
+            "answer": "exacerbate the problem",
+            "choices": [],
+            "accept": "exacerbate the problem"
+          }
+        ]
+      },
+      "passage": "Hong Kong’s shrinking landfill capacity continues to **pose a threat to** long-term waste management if diversion rates remain modest. Environmental groups **raise concerns about** food waste from public rental estates and commercial kitchens, arguing that slow uptake of smart bins may **exacerbate the problem**. Housing estates and district councils are **faced with** competing priorities: hygiene, noise from collection, and the recurrent expenditure of expanding Green@Community points. Meeting higher recycling targets is therefore **a major concern** for the Environment and Ecology Bureau, which is phasing in food-waste collection and I·PARK-related treatment capacity. On balance, infrastructure alone will not close the service gap without steadier household participation.",
+      "tasks": [
+        {
+          "q": "文中邊啲來源嘅 food waste raise concerns？",
+          "answer": "public rental estates and commercial kitchens",
+          "type": "open"
+        },
+        {
+          "q": "用自己一句解釋點解 estates 係 faced with competing priorities（1 句）",
+          "answer": "（例）they must balance hygiene, collection noise, and the cost of more Green@Community points",
+          "type": "open"
+        },
+        {
+          "q": "True / False：Passage 話只靠基建就可以完全解決 landfill 壓力。",
+          "answer": "False",
+          "type": "tf",
+          "choices": [
+            "True",
+            "False"
+          ]
+        }
+      ],
+      "nextTheme": "Solutions and measures",
+      "sourceFile": "2026-09-13 - Problems and Threats.md"
+    },
+    {
+      "id": "2026-09-14-solutions-and-measures",
+      "lesson": 4,
+      "date": "2026-09-14",
+      "theme": "Solutions and Measures",
+      "title": "Solutions and Measures",
+      "review": [],
+      "collocations": [
+        {
+          "phrase": "take measures to",
+          "weak": "do something about",
+          "yue": "採取措施",
+          "frame": "take measures to + V",
+          "model": "Governments should take measures to reduce plastic waste.",
+          "mistake": "measures of reducing → 用 to reduce"
+        },
+        {
+          "phrase": "implement policies",
+          "weak": "put rules into practice",
+          "yue": "落實政策",
+          "frame": "implement policies (aimed at / to + V)",
+          "model": "Many cities have implemented policies aimed at cutting traffic emissions.",
+          "mistake": "implement 唔可以接 people"
+        },
+        {
+          "phrase": "address the issue",
+          "weak": "deal with the problem",
+          "yue": "處理問題",
+          "frame": "address the issue/problem of + N",
+          "model": "Schools need to address the issue of exam stress among students.",
+          "mistake": "呢度 address 唔係街道地址"
+        },
+        {
+          "phrase": "mitigate the effects of",
+          "weak": "make bad effects smaller",
+          "yue": "減輕影響",
+          "frame": "mitigate the effects/impact of + N",
+          "model": "Early intervention can mitigate the effects of childhood poverty.",
+          "mistake": "留意 mitigate 嘅拼法"
+        },
+        {
+          "phrase": "put forward proposals",
+          "weak": "suggest ideas",
+          "yue": "提出方案",
+          "frame": "put forward proposals / a proposal to + V",
+          "model": "Experts have put forward proposals to improve public transport.",
+          "mistake": "put forwards → 唔加 s"
+        }
+      ],
+      "drill": {
+        "items": [
+          {
+            "id": "A",
+            "prompt": "改寫得更學術：用今日搭配取代弱寫法。\n弱：do something about",
+            "type": "rewrite",
+            "answer": "take measures to",
+            "choices": [],
+            "accept": "take measures to"
+          },
+          {
+            "id": "B",
+            "prompt": "選正確：Which form is correct for this lesson's collocation?\n（policies / polciies）",
+            "type": "choose",
+            "answer": "policies",
+            "choices": [
+              "policies",
+              "polciies"
+            ]
+          },
+          {
+            "id": "C",
+            "prompt": "填空：Early intervention can ______ childhood poverty.",
+            "type": "fill",
+            "answer": "mitigate the effects of",
+            "choices": [],
+            "accept": "mitigate the effects of"
+          }
+        ]
+      },
+      "passage": "To ease pressure on the public rental waiting list, the Housing Bureau continues to **take measures to** expand transitional and Light Public Housing supply. Officials **implement policies** that prioritise eligible households with longer waits, while district partners help verify applications under phased rollout. These steps seek to **address the issue** of families stuck in inadequate private rentals without claiming that every applicant can be housed at once. Temporary units can **mitigate the effects of** prolonged waiting, yet residual risk remains for those just outside the eligibility net. Stakeholders have also **put forward proposals** for faster modular construction and clearer take-up reporting, subject to the available fiscal envelope.",
+      "tasks": [
+        {
+          "q": "文中優先照顧邊類 eligible households？",
+          "answer": "those with longer waits",
+          "type": "open"
+        },
+        {
+          "q": "用自己一句解釋 temporary units 點樣 mitigate the effects of prolonged waiting（1 句）",
+          "answer": "（例）they offer interim relief while permanent PRH supply catches up",
+          "type": "open"
+        },
+        {
+          "q": "True / False：Passage 話每個申請人都可以即刻上樓。",
+          "answer": "False",
+          "type": "tf",
+          "choices": [
+            "True",
+            "False"
+          ]
+        }
+      ],
+      "nextTheme": "Increase, decrease and quantity",
+      "sourceFile": "2026-09-14 - Solutions and Measures.md"
+    },
+    {
+      "id": "2026-09-15-increase-decrease-quantity",
+      "lesson": 5,
+      "date": "2026-09-15",
+      "theme": "Increase / Decrease / Quantity",
+      "title": "Increase / Decrease / Quantity",
+      "review": [],
+      "collocations": [
+        {
+          "phrase": "a sharp increase in",
+          "weak": "go up a lot",
+          "yue": "大幅上升",
+          "frame": "a sharp increase in + noun",
+          "model": "There has been a sharp increase in remote working since 2020.",
+          "mistake": "increase of people → 用 increase in the number of"
+        },
+        {
+          "phrase": "decline significantly",
+          "weak": "go down a lot",
+          "yue": "明顯下降",
+          "frame": "decline significantly / a significant decline in",
+          "model": "Birth rates have declined significantly in many developed countries.",
+          "mistake": "decline in sales，唔好寫 decline to do"
+        },
+        {
+          "phrase": "a substantial proportion of",
+          "weak": "a lot of",
+          "yue": "相當大比例",
+          "frame": "a substantial proportion of + noun",
+          "model": "A substantial proportion of young people rely on public transport.",
+          "mistake": "proportion from → 用 of"
+        },
+        {
+          "phrase": "experience a surge in",
+          "weak": "suddenly have much more",
+          "yue": "經歷急升",
+          "frame": "experience a surge in + noun",
+          "model": "Online retailers experienced a surge in demand during the holiday season.",
+          "mistake": "較自然寫 surge in demand"
+        },
+        {
+          "phrase": "account for",
+          "weak": "make up",
+          "yue": "佔（比例）",
+          "frame": "account for + percentage",
+          "model": "Renewable energy now accounts for nearly 30% of electricity generation.",
+          "mistake": "呢度係 make up，唔係 explain"
+        }
+      ],
+      "drill": {
+        "items": [
+          {
+            "id": "A",
+            "prompt": "改寫得更學術：用今日搭配取代弱寫法。\n弱：go up a lot",
+            "type": "rewrite",
+            "answer": "a sharp increase in",
+            "choices": [],
+            "accept": "a sharp increase in"
+          },
+          {
+            "id": "B",
+            "prompt": "選正確：Which form is correct for this lesson's collocation?\n（significantly / signiifcantly）",
+            "type": "choose",
+            "answer": "significantly",
+            "choices": [
+              "significantly",
+              "signiifcantly"
+            ]
+          },
+          {
+            "id": "C",
+            "prompt": "填空：Write the collocation that means「經歷急升」。",
+            "type": "fill",
+            "answer": "experience a surge in",
+            "choices": [],
+            "accept": "experience a surge in"
+          }
+        ]
+      },
+      "passage": "After full reopening of the boundary, Hong Kong recorded **a sharp increase in** short-haul visitor arrivals, filling hotels and cross-boundary transport on peak weekends. Same-day trips from the Greater Bay Area now **account for** a rising share of footfall in core retail districts, while some longer-haul markets still **decline significantly** compared with pre-pandemic peaks. Tourism operators also **experience a surge in** midweek bookings whenever large exhibitions coincide with public holidays. On balance, **a substantial proportion of** the rebound remains concentrated in a few districts, so knock-on effects on quieter neighbourhoods are uneven. Authorities therefore favour diversifying attractions rather than relying on headline arrival totals alone.",
+      "tasks": [
+        {
+          "q": "文中邊類 trips account for a rising share of footfall？",
+          "answer": "Same-day trips from the Greater Bay Area",
+          "type": "open"
+        },
+        {
+          "q": "用自己一句解釋點解 rebound 仍然 uneven（1 句）",
+          "answer": "（例）a large share of the rebound is concentrated in a few districts",
+          "type": "open"
+        },
+        {
+          "q": "True / False：Passage 話所有客源市場都已經超越疫情前高峰。",
+          "answer": "False",
+          "type": "tf",
+          "choices": [
+            "True",
+            "False"
+          ]
+        }
+      ],
+      "nextTheme": "Opinion, argument and conclusion",
+      "sourceFile": "2026-09-15 - Increase Decrease Quantity.md"
+    },
+    {
+      "id": "2026-09-16-opinion-argument-conclusion",
+      "lesson": 6,
+      "date": "2026-09-16",
+      "theme": "Opinion / Argument / Conclusion",
+      "title": "Opinion / Argument / Conclusion",
+      "review": [],
+      "collocations": [
+        {
+          "phrase": "hold the view that",
+          "weak": "I think",
+          "yue": "認為",
+          "frame": "hold the view that + clause",
+          "model": "Many educators hold the view that creativity should be assessed alongside exam scores.",
+          "mistake": "hold the view of that → 用 hold the view that"
+        },
+        {
+          "phrase": "it is widely believed that",
+          "weak": "many people think",
+          "yue": "普遍認為",
+          "frame": "It is widely believed that + clause",
+          "model": "It is widely believed that early reading habits shape later academic success.",
+          "mistake": "widely believe → 用 widely believed"
+        },
+        {
+          "phrase": "lend support to",
+          "weak": "support",
+          "yue": "為論點提供支持",
+          "frame": "lend support to + noun",
+          "model": "Recent surveys lend support to the argument that flexible hours raise productivity.",
+          "mistake": "support for → 呢個片語用 to"
+        },
+        {
+          "phrase": "cast doubt on",
+          "weak": "make people doubt",
+          "yue": "令人質疑",
+          "frame": "cast doubt on + noun",
+          "model": "Conflicting data cast doubt on the claim that longer school days always help.",
+          "mistake": "doubt to → 用 on"
+        },
+        {
+          "phrase": "reach the conclusion that",
+          "weak": "so I think",
+          "yue": "得出結論",
+          "frame": "reach the conclusion that + clause",
+          "model": "Overall, I reach the conclusion that balanced assessment benefits both students and teachers.",
+          "mistake": "reach to the conclusion → 唔用 to"
+        }
+      ],
+      "drill": {
+        "items": [
+          {
+            "id": "A",
+            "prompt": "改寫得更學術：用今日搭配取代弱寫法。\n弱：I think",
+            "type": "rewrite",
+            "answer": "hold the view that",
+            "choices": [],
+            "accept": "hold the view that"
+          },
+          {
+            "id": "B",
+            "prompt": "選正確：Which form is correct for this lesson's collocation?\n（that / thate）",
+            "type": "choose",
+            "answer": "that",
+            "choices": [
+              "that",
+              "thate"
+            ]
+          },
+          {
+            "id": "C",
+            "prompt": "填空：Conflicting data ______ the claim that longer school days always help.",
+            "type": "fill",
+            "answer": "cast doubt on",
+            "choices": [],
+            "accept": "cast doubt on"
+          }
+        ]
+      },
+      "passage": "Many carers **hold the view that** community care vouchers offer more dignity than immediate residential placement for frail elders who still have family support. **It is widely believed that** expanding voucher take-up can ease pressure on residential waiting lists, and early evaluation reports **lend support to** that reading where day-care slots are available. Critics nonetheless **cast doubt on** whether the current fiscal envelope can keep pace if demand rises sharply among dual-income households. After weighing service gaps and caregiver strain, district welfare teams often **reach the conclusion that** a mixed model—vouchers plus targeted residential places—remains preferable on balance to a single-track approach.",
+      "tasks": [
+        {
+          "q": "文中邊啲報告 lend support to expanding voucher take-up？",
+          "answer": "early evaluation reports（where day-care slots are available）",
+          "type": "open"
+        },
+        {
+          "q": "用自己一句解釋 critic 點解 cast doubt on the fiscal envelope（1 句）",
+          "answer": "（例）demand from dual-income households may grow faster than the budget can support",
+          "type": "open"
+        },
+        {
+          "q": "True / False：Passage 最終 favour 單一 residential-only 方案。",
+          "answer": "False",
+          "type": "tf",
+          "choices": [
+            "True",
+            "False"
+          ]
+        }
+      ],
+      "nextTheme": "Education",
+      "sourceFile": "2026-09-16 - Opinion Argument Conclusion.md"
+    },
+    {
+      "id": "2026-09-17-education",
+      "lesson": 7,
+      "date": "2026-09-17",
+      "theme": "Education",
+      "title": "Education",
+      "review": [],
+      "collocations": [
+        {
+          "phrase": "pursue higher education",
+          "weak": "go to university",
+          "yue": "繼續升學",
+          "frame": "pursue higher education (in + field)",
+          "model": "More young people now pursue higher education to improve their career prospects.",
+          "mistake": "pursue to higher education → 唔用 to"
+        },
+        {
+          "phrase": "equip students with",
+          "weak": "give students skills",
+          "yue": "裝備能力",
+          "frame": "equip students with + noun",
+          "model": "Schools should equip students with practical skills for the workplace.",
+          "mistake": "equip students to skills → 用 with"
+        },
+        {
+          "phrase": "place a strong emphasis on",
+          "weak": "focus a lot on",
+          "yue": "強調／重視",
+          "frame": "place a strong emphasis on + noun/V-ing",
+          "model": "The new curriculum places a strong emphasis on creativity.",
+          "mistake": "emphasis in → 用 on"
+        },
+        {
+          "phrase": "foster critical thinking",
+          "weak": "help students think better",
+          "yue": "培養批判思維",
+          "frame": "foster critical thinking (among/in)",
+          "model": "Group discussion can foster critical thinking among secondary students.",
+          "mistake": "通常唔加 the"
+        },
+        {
+          "phrase": "have access to education",
+          "weak": "can go to school",
+          "yue": "有機會接受教育",
+          "frame": "have/gain access to education",
+          "model": "Children in remote areas often do not have access to education.",
+          "mistake": "an access → access 係不可數"
+        }
+      ],
+      "drill": {
+        "items": [
+          {
+            "id": "A",
+            "prompt": "改寫得更學術：用今日搭配取代弱寫法。\n弱：go to university",
+            "type": "rewrite",
+            "answer": "pursue higher education",
+            "choices": [],
+            "accept": "pursue higher education"
+          },
+          {
+            "id": "B",
+            "prompt": "選正確：Which form is correct for this lesson's collocation?\n（with / withe）",
+            "type": "choose",
+            "answer": "with",
+            "choices": [
+              "with",
+              "withe"
+            ]
+          },
+          {
+            "id": "C",
+            "prompt": "填空：Group discussion can ______ among secondary students.",
+            "type": "fill",
+            "answer": "foster critical thinking",
+            "choices": [],
+            "accept": "foster critical thinking"
+          }
+        ]
+      },
+      "passage": "Hong Kong school-leavers who hope to **pursue higher education** increasingly look beyond a single local pathway, including carefully chosen Greater Bay Area programmes. Curriculum reforms **place a strong emphasis on** STEM and applied learning so that schools can **equip students with** skills aligned to innovation and technology roles. Classroom tasks that **foster critical thinking** matter as much as examination scores if graduates are to adapt when industries shift. At the same time, policymakers stress that every district should **have access to education** pathways that include vocational routes, not only elite degree places. On balance, widening choice may ease mismatch between talent supply and labour demand, subject to quality assurance across the border.",
+      "tasks": [
+        {
+          "q": "文中 curriculum reforms place a strong emphasis on 邊啲範疇？",
+          "answer": "STEM and applied learning",
+          "type": "open"
+        },
+        {
+          "q": "用自己一句解釋點解都要有 vocational pathways（1 句）",
+          "answer": "（例）not every student thrives on elite degrees; vocational routes also meet labour demand",
+          "type": "open"
+        },
+        {
+          "q": "True / False：Passage 話只有 elite degree places 先算 have access to education。",
+          "answer": "False",
+          "type": "tf",
+          "choices": [
+            "True",
+            "False"
+          ]
+        }
+      ],
+      "nextTheme": "Environment",
+      "sourceFile": "2026-09-17 - Education.md"
+    },
+    {
+      "id": "2026-09-18-environment",
+      "lesson": 8,
+      "date": "2026-09-18",
+      "theme": "Environment",
+      "title": "Environment",
+      "review": [],
+      "collocations": [
+        {
+          "phrase": "cause irreversible damage to",
+          "weak": "damage nature badly",
+          "yue": "不可逆轉破壞",
+          "frame": "cause irreversible damage to + noun",
+          "model": "Deforestation can cause irreversible damage to local ecosystems.",
+          "mistake": "damage 係不可數，唔寫 damages"
+        },
+        {
+          "phrase": "deplete natural resources",
+          "weak": "use up natural things",
+          "yue": "耗盡自然資源",
+          "frame": "deplete natural resources",
+          "model": "Overconsumption continues to deplete natural resources at an alarming rate.",
+          "mistake": "唔好用 finish"
+        },
+        {
+          "phrase": "reduce carbon emissions",
+          "weak": "cut CO2",
+          "yue": "減少碳排放",
+          "frame": "reduce/cut carbon emissions",
+          "model": "Governments must reduce carbon emissions to limit global warming.",
+          "mistake": "emission 用單數通常唔啱"
+        },
+        {
+          "phrase": "switch to renewable energy sources",
+          "weak": "use green energy",
+          "yue": "轉用可再生能源",
+          "frame": "switch to renewable energy sources",
+          "model": "Cities should switch to renewable energy sources such as solar and wind power.",
+          "mistake": "較好寫 renewable energy sources"
+        },
+        {
+          "phrase": "preserve biodiversity",
+          "weak": "protect animals",
+          "yue": "保護生物多樣性",
+          "frame": "preserve/protect biodiversity",
+          "model": "National parks help preserve biodiversity by providing safe habitats for wildlife.",
+          "mistake": "biodiversity 係不可數，唔寫 biodiversities"
+        }
+      ],
+      "drill": {
+        "items": [
+          {
+            "id": "A",
+            "prompt": "改寫得更學術：用今日搭配取代弱寫法。\n弱：damage nature badly",
+            "type": "rewrite",
+            "answer": "cause irreversible damage to",
+            "choices": [],
+            "accept": "cause irreversible damage to"
+          },
+          {
+            "id": "B",
+            "prompt": "選正確：Which form is correct for this lesson's collocation?\n（resources / resuorces）",
+            "type": "choose",
+            "answer": "resources",
+            "choices": [
+              "resources",
+              "resuorces"
+            ]
+          },
+          {
+            "id": "C",
+            "prompt": "填空：Cities should ______ such as solar and wind power.",
+            "type": "fill",
+            "answer": "switch to renewable energy sources",
+            "choices": [],
+            "accept": "switch to renewable energy sources"
+          }
+        ]
+      },
+      "passage": "Leaving municipal waste streams unmanaged can **cause irreversible damage to** coastal waters and country-park habitats that Hong Kong residents rely on for leisure and biodiversity. Over-extraction of materials and weak recycling loops continue to **deplete natural resources** upstream of the city’s consumption. The Government’s green-transition agenda therefore seeks to **reduce carbon emissions** while raising the share of cleaner electricity over the coming decade. Estates that **switch to renewable energy sources** for shared facilities, together with scaled Green@Community and I·PARK treatment capacity, illustrate a phased approach. Marine parks and wetland protection remain necessary if the city is to **preserve biodiversity** alongside growth in the Northern Metropolis.",
+      "tasks": [
+        {
+          "q": "文中邊啲自然環境可能受到 irreversible damage？",
+          "answer": "coastal waters and country-park habitats",
+          "type": "open"
+        },
+        {
+          "q": "用自己一句解釋 Green@Community／I·PARK 喺 passage 扮演咩角色（1 句）",
+          "answer": "（例）they are part of a phased approach to treat waste and support the green transition",
+          "type": "open"
+        },
+        {
+          "q": "True / False：Passage 話經濟發展同 preserve biodiversity 完全冇衝突空間。",
+          "answer": "False",
+          "type": "tf",
+          "choices": [
+            "True",
+            "False"
+          ]
+        }
+      ],
+      "nextTheme": "Technology",
+      "sourceFile": "2026-09-18 - Environment.md"
+    },
+    {
+      "id": "2026-09-19-technology",
+      "lesson": 9,
+      "date": "2026-09-19",
+      "theme": "Technology",
+      "title": "Technology",
+      "review": [],
+      "collocations": [
+        {
+          "phrase": "rely heavily on technology",
+          "weak": "depend a lot on tech",
+          "yue": "好依賴科技",
+          "frame": "rely heavily on technology",
+          "model": "Many industries now rely heavily on technology to stay competitive.",
+          "mistake": "heavily in → 用 on"
+        },
+        {
+          "phrase": "keep pace with technological advances",
+          "weak": "keep up with new tech",
+          "yue": "跟得上科技進步",
+          "frame": "keep pace with technological advances",
+          "model": "Schools must keep pace with technological advances to prepare students for the future.",
+          "mistake": "pace to → 用 with"
+        },
+        {
+          "phrase": "bridge the digital divide",
+          "weak": "make internet gap smaller",
+          "yue": "縮短數碼鴻溝",
+          "frame": "bridge the digital divide (between…)",
+          "model": "Governments should invest in infrastructure to bridge the digital divide between urban and rural areas.",
+          "mistake": "要用 the"
+        },
+        {
+          "phrase": "raise privacy concerns",
+          "weak": "make people worry about privacy",
+          "yue": "引起私隱憂慮",
+          "frame": "raise privacy concerns",
+          "model": "Facial-recognition cameras in public places raise privacy concerns among citizens.",
+          "mistake": "concerning → 用 concerns"
+        },
+        {
+          "phrase": "transform the way we …",
+          "weak": "change how we",
+          "yue": "徹底改變方式",
+          "frame": "transform the way we work/learn/communicate",
+          "model": "Smartphones have transformed the way we communicate with friends and colleagues.",
+          "mistake": "唔好寫 the way how we"
+        }
+      ],
+      "drill": {
+        "items": [
+          {
+            "id": "A",
+            "prompt": "改寫得更學術：用今日搭配取代弱寫法。\n弱：depend a lot on tech",
+            "type": "rewrite",
+            "answer": "rely heavily on technology",
+            "choices": [],
+            "accept": "rely heavily on technology"
+          },
+          {
+            "id": "B",
+            "prompt": "選正確：Which form is correct for this lesson's collocation?\n（advances / advnaces）",
+            "type": "choose",
+            "answer": "advances",
+            "choices": [
+              "advances",
+              "advnaces"
+            ]
+          },
+          {
+            "id": "C",
+            "prompt": "填空：Facial-recognition cameras in public places ______ among citizens.",
+            "type": "fill",
+            "answer": "raise privacy concerns",
+            "choices": [],
+            "accept": "raise privacy concerns"
+          }
+        ]
+      },
+      "passage": "Public services in Hong Kong now **rely heavily on technology** for licensing, booking, and benefit applications, so outages quickly disrupt daily life. Bureaux must **keep pace with technological advances** if digital government channels are to remain usable as private-sector apps raise expectations. Targeted support for elders and low-income households is meant to **bridge the digital divide**, yet new data-sharing pilots still **raise privacy concerns** among civil-society groups. On balance, thoughtful design can **transform the way we** access hospital appointments and community services without excluding those offline. Stakeholder consultation and clear opt-outs therefore sit alongside the push for higher take-up.",
+      "tasks": [
+        {
+          "q": "文中點樣嘗試 bridge the digital divide？",
+          "answer": "Targeted support for elders and low-income households",
+          "type": "open"
+        },
+        {
+          "q": "用自己一句解釋點解 data-sharing pilots raise privacy concerns（1 句）",
+          "answer": "（例）civil-society groups worry about how personal data may be shared in new pilots",
+          "type": "open"
+        },
+        {
+          "q": "True / False：Passage 話數碼化可以完全唔理 offline users。",
+          "answer": "False",
+          "type": "tf",
+          "choices": [
+            "True",
+            "False"
+          ]
+        }
+      ],
+      "nextTheme": "Health",
+      "sourceFile": "2026-09-19 - Technology.md"
+    },
+    {
+      "id": "2026-09-20-health",
+      "lesson": 10,
+      "date": "2026-09-20",
+      "theme": "Health",
+      "title": "Health",
+      "review": [],
+      "collocations": [
+        {
+          "phrase": "lead a sedentary lifestyle",
+          "weak": "sit a lot",
+          "yue": "少郁動生活",
+          "frame": "lead a sedentary lifestyle",
+          "model": "Many office workers lead a sedentary lifestyle, which can weaken their physical fitness over time.",
+          "mistake": "have a sedentary life 冇咁自然"
+        },
+        {
+          "phrase": "suffer from chronic diseases",
+          "weak": "have long-term illness",
+          "yue": "患慢性病",
+          "frame": "suffer from chronic diseases",
+          "model": "An ageing population means more people suffer from chronic diseases such as diabetes and heart disease.",
+          "mistake": "要用 from"
+        },
+        {
+          "phrase": "have access to healthcare",
+          "weak": "can get medical help",
+          "yue": "獲得醫療服務",
+          "frame": "have/gain access to healthcare",
+          "model": "In rural areas, residents often do not have access to healthcare of the same quality as city dwellers.",
+          "mistake": "healthcare 係不可數，唔寫 healthcares"
+        },
+        {
+          "phrase": "improve public health",
+          "weak": "make people’s health better",
+          "yue": "改善公共衛生",
+          "frame": "improve public health",
+          "model": "Clean water and vaccination programmes help governments improve public health across the country.",
+          "mistake": "唔好寫 improve the public’s healthy"
+        },
+        {
+          "phrase": "enjoy a longer life expectancy",
+          "weak": "live longer on average",
+          "yue": "更長預期壽命",
+          "frame": "enjoy a longer/higher life expectancy",
+          "model": "Thanks to better nutrition and medicine, many countries now enjoy a longer life expectancy than a century ago.",
+          "mistake": "講國家趨勢通常用單數"
+        }
+      ],
+      "drill": {
+        "items": [
+          {
+            "id": "A",
+            "prompt": "改寫得更學術：用今日搭配取代弱寫法。\n弱：sit a lot",
+            "type": "rewrite",
+            "answer": "lead a sedentary lifestyle",
+            "choices": [],
+            "accept": "lead a sedentary lifestyle"
+          },
+          {
+            "id": "B",
+            "prompt": "選正確：Which form is correct for this lesson's collocation?\n（diseases / disaeses）",
+            "type": "choose",
+            "answer": "diseases",
+            "choices": [
+              "diseases",
+              "disaeses"
+            ]
+          },
+          {
+            "id": "C",
+            "prompt": "填空：Clean water and vaccination programmes help governments ______ across the country.",
+            "type": "fill",
+            "answer": "improve public health",
+            "choices": [],
+            "accept": "improve public health"
+          }
+        ]
+      },
+      "passage": "Office workers who **lead a sedentary lifestyle** between long MTR rides and desk shifts are more likely over time to **suffer from chronic diseases** such as hypertension. District Health Centres aim to ensure more residents **have access to healthcare** closer to home before conditions worsen, complementing Hospital Authority clinics. Screening, vaccination, and lifestyle advice are framed as practical ways to **improve public health** within a constrained recurrent expenditure envelope. If prevention takes hold, more people may **enjoy a longer life expectancy** with fewer years spent in avoidable hospital care. On balance, primary-care expansion remains subject to staffing and steady eHealth registration rates.",
+      "tasks": [
+        {
+          "q": "文中邊類設施幫助居民 have access to healthcare closer to home？",
+          "answer": "District Health Centres（complementing HA clinics）",
+          "type": "open"
+        },
+        {
+          "q": "用自己一句解釋 sedentary lifestyle 同 chronic diseases 嘅關係（1 句）",
+          "answer": "（例）long hours of sitting raise the chance of conditions such as hypertension",
+          "type": "open"
+        },
+        {
+          "q": "True / False：Passage 話 prevention 唔使理 staffing 同 eHealth take-up。",
+          "answer": "False",
+          "type": "tf",
+          "choices": [
+            "True",
+            "False"
+          ]
+        }
+      ],
+      "nextTheme": "Government and society",
+      "sourceFile": "2026-09-20 - Health.md"
+    },
+    {
+      "id": "2026-09-21-government-and-society",
+      "lesson": 11,
+      "date": "2026-09-21",
+      "theme": "Government and Society",
+      "title": "Government and Society",
+      "review": [],
+      "collocations": [
+        {
+          "phrase": "introduce legislation",
+          "weak": "make new laws",
+          "yue": "推出法例",
+          "frame": "introduce legislation to + V / on + N",
+          "model": "The government plans to introduce legislation to curb online hate speech.",
+          "mistake": "legislation 係不可數，唔寫 a legislation"
+        },
+        {
+          "phrase": "enforce the law",
+          "weak": "make people follow the law",
+          "yue": "執法",
+          "frame": "enforce the law / enforce regulations",
+          "model": "Passing a bill is not enough; authorities must also enforce the law.",
+          "mistake": "enforce 唔等於 reinforce"
+        },
+        {
+          "phrase": "allocate public funds",
+          "weak": "give money to",
+          "yue": "撥出公帑",
+          "frame": "allocate public funds to + N / for + V-ing",
+          "model": "The council decided to allocate public funds to affordable housing.",
+          "mistake": "較好用 allocate to/for"
+        },
+        {
+          "phrase": "maintain social stability",
+          "weak": "keep society calm",
+          "yue": "維持社會穩定",
+          "frame": "maintain social stability",
+          "model": "Fair policing helps maintain social stability in diverse cities.",
+          "mistake": "the social stable → 用 social stability"
+        },
+        {
+          "phrase": "tackle social inequality",
+          "weak": "fix the rich-poor problem",
+          "yue": "應對社會不平等",
+          "frame": "tackle social inequality",
+          "model": "Progressive taxation is one way to tackle social inequality.",
+          "mistake": "solve completely 太絕對；用 tackle/address/reduce"
+        }
+      ],
+      "drill": {
+        "items": [
+          {
+            "id": "A",
+            "prompt": "改寫得更學術：用今日搭配取代弱寫法。\n弱：make new laws",
+            "type": "rewrite",
+            "answer": "introduce legislation",
+            "choices": [],
+            "accept": "introduce legislation"
+          },
+          {
+            "id": "B",
+            "prompt": "選正確：Which form is correct for this lesson's collocation?\n（enforce / enofrce）",
+            "type": "choose",
+            "answer": "enforce",
+            "choices": [
+              "enforce",
+              "enofrce"
+            ]
+          },
+          {
+            "id": "C",
+            "prompt": "填空：Fair policing helps ______ in diverse cities.",
+            "type": "fill",
+            "answer": "maintain social stability",
+            "choices": [],
+            "accept": "maintain social stability"
+          }
+        ]
+      },
+      "passage": "To curb online investment scams targeting retail investors in Hong Kong, authorities plan to **introduce legislation** that tightens platform duties and disclosure rules. Agencies must still **enforce the law** consistently so that new offences deter repeat operators rather than displace them overseas. The Government continues to **allocate public funds** to public education and reporting channels, recognising that prosecution alone cannot rebuild trust. Clearer consumer protection can help **maintain social stability** when losses cluster in middle-income districts. Over time, better redress and means-tested support may also **tackle social inequality** between victims who can afford legal advice and those who cannot.",
+      "tasks": [
+        {
+          "q": "新法例主要針對邊種騙案？",
+          "answer": "online investment scams targeting retail investors",
+          "type": "open"
+        },
+        {
+          "q": "用自己一句解釋點解 allocate public funds to education 仍然重要（1 句）",
+          "answer": "（例）prosecution alone cannot rebuild trust; prevention and reporting channels matter",
+          "type": "open"
+        },
+        {
+          "q": "True / False：Passage 話單靠 prosecution 已經足夠 rebuild trust。",
+          "answer": "False",
+          "type": "tf",
+          "choices": [
+            "True",
+            "False"
+          ]
+        }
+      ],
+      "nextTheme": "Importance and role",
+      "sourceFile": "2026-09-21 - Government and Society.md"
+    },
+    {
+      "id": "2026-09-22-importance-role",
+      "lesson": 12,
+      "date": "2026-09-22",
+      "theme": "Importance / Role",
+      "title": "Importance / Role",
+      "review": [
+        {
+          "phrase": "introduce legislation",
+          "yue": "提出／引入法例"
+        },
+        {
+          "phrase": "enforce the law",
+          "yue": "執法"
+        },
+        {
+          "phrase": "allocate public funds",
+          "yue": "分配公帑"
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "play a vital role in",
+          "weak": "is very important",
+          "yue": "喺某事入面扮演關鍵角色",
+          "frame": "X plays a vital role in + noun / V-ing",
+          "model": "Teachers play a vital role in shaping young people’s values.",
+          "mistake": "唔好寫 play a vital role to do；用 in + noun/V-ing"
+        },
+        {
+          "phrase": "be of great importance to",
+          "weak": "is very important for",
+          "yue": "對……極為重要（正式學術語氣）",
+          "frame": "X is / are of great importance to + noun",
+          "model": "Reliable data is of great importance to policymakers.",
+          "mistake": "唔好寫 of greatly importance；用形容詞 great"
+        },
+        {
+          "phrase": "be essential to",
+          "weak": "is necessary / needed",
+          "yue": "對……必不可少",
+          "frame": "X is essential to + noun / V-ing",
+          "model": "Clear communication is essential to teamwork.",
+          "mistake": "後面多數接名詞或 V-ing"
+        },
+        {
+          "phrase": "be instrumental in",
+          "weak": "helped a lot to",
+          "yue": "對促成某事起重要作用",
+          "frame": "X was / is instrumental in + V-ing / noun",
+          "model": "Community groups were instrumental in raising awareness of the issue.",
+          "mistake": "用 in + V-ing，唔係 instrumental to do"
+        },
+        {
+          "phrase": "occupy a central place in",
+          "weak": "is the most important part of",
+          "yue": "喺……當中佔核心位置",
+          "frame": "X occupies a central place in + noun",
+          "model": "Education occupies a central place in national development plans.",
+          "mistake": "place 多數用單數"
+        }
+      ],
+      "drill": {
+        "items": [
+          {
+            "id": "A",
+            "prompt": "改寫得更學術：用今日搭配取代弱寫法。\n弱：is very important",
+            "type": "rewrite",
+            "answer": "play a vital role in",
+            "choices": [],
+            "accept": "play a vital role in"
+          },
+          {
+            "id": "B",
+            "prompt": "選正確：Which form is correct for this lesson's collocation?\n（importance / impotrance）",
+            "type": "choose",
+            "answer": "importance",
+            "choices": [
+              "importance",
+              "impotrance"
+            ]
+          },
+          {
+            "id": "C",
+            "prompt": "填空：Write the collocation that means「對促成某事起重要作用」。",
+            "type": "fill",
+            "answer": "be instrumental in",
+            "choices": [],
+            "accept": "be instrumental in"
+          }
+        ]
+      },
+      "passage": "Primary care now **occupies a central place in** Hong Kong’s strategy for an ageing population. District Health Centres **play a vital role in** diverting stable cases away from specialist queues, while eHealth records **are of great importance to** continuity when patients move between clinics. Reliable family-medicine slots **are essential to** catching chronic disease early, and nurse-led follow-up has **been instrumental in** raising vaccination and screening take-up in several districts. On balance, community networks that link social and medical support remain as critical as hospital expansion if the system is to stay sustainable within the fiscal envelope.",
+      "tasks": [
+        {
+          "q": "文中邊啲 centres play a vital role in diverting stable cases？",
+          "answer": "District Health Centres",
+          "type": "open"
+        },
+        {
+          "q": "用自己一句解釋 eHealth records 點解 are of great importance（1 句）",
+          "answer": "（例）they support continuity when patients move between clinics",
+          "type": "open"
+        },
+        {
+          "q": "True / False：Passage 話只靠加醫院床位就夠應付人口老化。",
+          "answer": "False",
+          "type": "tf",
+          "choices": [
+            "True",
+            "False"
+          ]
+        }
+      ],
+      "nextTheme": "Impact / Effect（影響／效果）",
+      "sourceFile": "2026-09-22 - Importance Role.md"
+    },
+    {
+      "id": "2026-09-24-impact-effect",
+      "lesson": 13,
+      "date": "2026-09-24",
+      "theme": "Impact / Effect",
+      "title": "Impact / Effect",
+      "review": [
+        {
+          "phrase": "play a vital role in",
+          "yue": "喺某事入面扮演關鍵角色"
+        },
+        {
+          "phrase": "be of great importance to",
+          "yue": "對……極為重要"
+        },
+        {
+          "phrase": "be essential to",
+          "yue": "對……必不可少"
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "have far-reaching consequences for",
+          "weak": "have a big effect on many things",
+          "yue": "對……帶來深遠／廣泛後果",
+          "frame": "X has / have far-reaching consequences for + noun",
+          "model": "Air pollution has far-reaching consequences for public health and the economy.",
+          "mistake": "用複數 consequences；前置詞用 for，唔係 to"
+        },
+        {
+          "phrase": "exert a strong influence on",
+          "weak": "strongly affect / have a big effect on",
+          "yue": "對……施加強烈影響",
+          "frame": "X exerts a strong influence on + noun",
+          "model": "Social media exerts a strong influence on young people’s opinions.",
+          "mistake": "動詞係 exert；後面用 on"
+        },
+        {
+          "phrase": "bring about change",
+          "weak": "cause change / make things change",
+          "yue": "促成／導致改變（正式）",
+          "frame": "X brings / brought about + (a) change / noun",
+          "model": "New transport policies brought about a clear change in commuting habits.",
+          "mistake": "完整片語係 bring about；唔好寫 bring a change about of"
+        },
+        {
+          "phrase": "have a knock-on effect on",
+          "weak": "then affect other things too",
+          "yue": "產生連鎖／連帶影響",
+          "frame": "X has / have a knock-on effect on + noun",
+          "model": "Rising fuel prices have a knock-on effect on food costs.",
+          "mistake": "用 knock-on effect；後面 on"
+        },
+        {
+          "phrase": "take its toll on",
+          "weak": "slowly damage / hurt over time",
+          "yue": "逐漸對……造成損害／損耗",
+          "frame": "X takes / took its toll on + noun",
+          "model": "Long working hours take their toll on employees’ mental health.",
+          "mistake": "主語複數時用 take their toll；後面用 on"
+        }
+      ],
+      "drill": {
+        "items": [
+          {
+            "id": "A",
+            "prompt": "改寫得更學術：用今日搭配取代弱寫法。\n弱：have a big effect on many things",
+            "type": "rewrite",
+            "answer": "have far-reaching consequences for",
+            "choices": [],
+            "accept": "have far-reaching consequences for"
+          },
+          {
+            "id": "B",
+            "prompt": "選正確：Which form is correct for this lesson's collocation?\n（influence / infulence）",
+            "type": "choose",
+            "answer": "influence",
+            "choices": [
+              "influence",
+              "infulence"
+            ]
+          },
+          {
+            "id": "C",
+            "prompt": "填空：Rising fuel prices ______ food costs.",
+            "type": "fill",
+            "answer": "have a knock-on effect on",
+            "choices": [],
+            "accept": "have a knock-on effect on"
+          }
+        ]
+      },
+      "passage": "Elevated private rents in Hong Kong’s urban districts **have far-reaching consequences for** household budgets, childcare choices, and even whether dual-career couples delay starting a family. Housing costs also **exert a strong influence on** labour mobility, as workers hesitate to take jobs far from cheap accommodation. Light Public Housing and transitional projects seek to **bring about change** for long-waiting applicants without claiming to reset the whole market overnight. When more households free up subdivided units, the shift can **have a knock-on effect on** neighbourhood retail and school places. Persistent stress over rent, however, continues to **take its toll on** mental well-being among caregivers and young tenants alike.",
+      "tasks": [
+        {
+          "q": "文中 housing costs exert a strong influence on 咩？",
+          "answer": "labour mobility（workers hesitate to take distant jobs）",
+          "type": "open"
+        },
+        {
+          "q": "用自己一句解釋 Light Public Housing 點樣 bring about change（1 句）",
+          "answer": "（例）it offers interim homes for long-waiting applicants without resetting the whole market at once",
+          "type": "open"
+        },
+        {
+          "q": "True / False：Passage 話租金壓力對 mental well-being 冇影響。",
+          "answer": "False",
+          "type": "tf",
+          "choices": [
+            "True",
+            "False"
+          ]
+        }
+      ],
+      "nextTheme": "Cause and Result（因果）",
+      "sourceFile": "2026-09-24 - Impact Effect.md"
+    },
+    {
+      "id": "2026-09-28-cause-and-result",
+      "lesson": 14,
+      "date": "2026-09-28",
+      "theme": "Cause and Result",
+      "title": "Cause and Result",
+      "review": [
+        {
+          "phrase": "have far-reaching consequences for",
+          "yue": "對……帶來深遠／廣泛後果"
+        },
+        {
+          "phrase": "exert a strong influence on",
+          "yue": "對……施加強烈影響"
+        },
+        {
+          "phrase": "take its toll on",
+          "yue": "逐漸對……造成損害／損耗"
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "arise from",
+          "weak": "come from / happen because of",
+          "yue": "源於／由……引起（正式）",
+          "frame": "X arises / arise from + noun",
+          "model": "Many workplace conflicts arise from poor communication.",
+          "mistake": "主語多數係問題／情況；唔好寫 arise from that people…（後面跟 noun / noun phrase）"
+        },
+        {
+          "phrase": "be the root cause of",
+          "weak": "be the main reason for",
+          "yue": "係……嘅根本原因",
+          "frame": "X is / are the root cause of + noun",
+          "model": "Poverty is often the root cause of poor educational outcomes.",
+          "mistake": "用 the root cause（通常單數）；後面 of，唔係 for"
+        },
+        {
+          "phrase": "culminate in",
+          "weak": "finally cause / end up causing",
+          "yue": "最終發展成為／以……告終",
+          "frame": "X culminates / culminated in + noun",
+          "model": "Years of underinvestment culminated in a serious housing shortage.",
+          "mistake": "後面用 in；通常指一段過程嘅最終結果"
+        },
+        {
+          "phrase": "be largely due to",
+          "weak": "mainly because of",
+          "yue": "主要由於……",
+          "frame": "X is / was largely due to + noun",
+          "model": "The drop in sales was largely due to weaker consumer demand.",
+          "mistake": "due to 後面跟 noun；正式寫作避免 due to people spent less"
+        },
+        {
+          "phrase": "be a direct consequence of",
+          "weak": "be directly caused by",
+          "yue": "係……嘅直接後果",
+          "frame": "X is / are a direct consequence of + noun",
+          "model": "Rising youth unemployment is a direct consequence of slow economic growth.",
+          "mistake": "用 consequence of；direct 強調因果好明顯"
+        }
+      ],
+      "drill": {
+        "items": [
+          {
+            "id": "A",
+            "prompt": "改寫得更學術：用今日搭配取代弱寫法。\n弱：come from / happen because of",
+            "type": "rewrite",
+            "answer": "arise from",
+            "choices": [],
+            "accept": "arise from"
+          },
+          {
+            "id": "B",
+            "prompt": "選正確：Which form is correct for this lesson's collocation?\n（cause / cuase）",
+            "type": "choose",
+            "answer": "cause",
+            "choices": [
+              "cause",
+              "cuase"
+            ]
+          },
+          {
+            "id": "C",
+            "prompt": "填空：Write the collocation that means「主要由於……」。",
+            "type": "fill",
+            "answer": "be largely due to",
+            "choices": [],
+            "accept": "be largely due to"
+          }
+        ]
+      },
+      "passage": "Roadside pollution spikes in Hong Kong’s older urban corridors often **arise from** a mix of freight traffic, canyon-like street design, and weather that traps exhaust. Idling and ageing diesel fleets are frequently **the root cause of** local exceedances even when regional background levels look moderate. Prolonged exposure can **culminate in** higher clinic visits for respiratory complaints among children and elders. Recent improvement in some monitoring stations is **largely due to** tighter vehicle standards and franchised-bus replacement programmes. Extra hospital burden during haze episodes is **a direct consequence of** days when both local emissions and regional factors align—hence the case for phased low-emission zones subject to stakeholder consultation.",
+      "tasks": [
+        {
+          "q": "文中邊啲因素經常係 local exceedances 嘅 root cause？",
+          "answer": "Idling and ageing diesel fleets",
+          "type": "open"
+        },
+        {
+          "q": "用自己一句解釋近期部分監測站改善 largely due to 咩（1 句）",
+          "answer": "（例）tighter vehicle standards and franchised-bus replacement programmes",
+          "type": "open"
+        },
+        {
+          "q": "True / False：Passage 話 roadside pollution 只係因為區域因素，同本地車隊無關。",
+          "answer": "False",
+          "type": "tf",
+          "choices": [
+            "True",
+            "False"
+          ]
+        }
+      ],
+      "nextTheme": "Problems and Threats（問題與威脅）",
+      "sourceFile": "2026-09-28 - Cause and Result.md"
+    },
+    {
+      "id": "2026-10-01-problems-and-threats",
+      "lesson": 15,
+      "date": "2026-10-01",
+      "theme": "Problems and Threats",
+      "title": "Problems and Threats",
+      "review": [
+        {
+          "phrase": "arise from",
+          "yue": "源於／由……引起"
+        },
+        {
+          "phrase": "be largely due to",
+          "yue": "主要由於……"
+        },
+        {
+          "phrase": "be a direct consequence of",
+          "yue": "係……嘅直接後果"
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "be plagued by",
+          "weak": "have a lot of problems with / keep suffering from",
+          "yue": "長期飽受……困擾（問題／麻煩持續出現）",
+          "frame": "X is / are plagued by + noun",
+          "model": "Many coastal cities are plagued by flooding during the rainy season.",
+          "mistake": "後面通常跟問題／負面情況（crime, delays, shortages），唔係正面事物"
+        },
+        {
+          "phrase": "be under threat",
+          "weak": "might be damaged / could be lost",
+          "yue": "正面臨威脅／岌岌可危",
+          "frame": "X is / are under threat (from + noun)",
+          "model": "Traditional crafts are under threat from cheap mass production.",
+          "mistake": "用 under threat（唔係 under threaten）；可加 from 說明來源"
+        },
+        {
+          "phrase": "run the risk of",
+          "weak": "might / there is a chance that",
+          "yue": "冒住……嘅風險",
+          "frame": "run the risk of + -ing / noun",
+          "model": "Governments that ignore youth unemployment run the risk of long-term social unrest.",
+          "mistake": "後面多數跟 -ing 或名詞；唔好寫 run the risk to do"
+        },
+        {
+          "phrase": "be vulnerable to",
+          "weak": "easily hurt by / easily affected by",
+          "yue": "容易受到……傷害／影響（較弱勢、抵禦力低）",
+          "frame": "X is / are vulnerable to + noun",
+          "model": "Low-income families are vulnerable to sudden rises in food prices.",
+          "mistake": "用 vulnerable to（唔係 vulnerable of / for）"
+        },
+        {
+          "phrase": "present a formidable challenge",
+          "weak": "be a very hard problem",
+          "yue": "構成重大／艱巨嘅挑戰",
+          "frame": "X presents / present a formidable challenge (to + noun)",
+          "model": "An ageing population presents a formidable challenge to healthcare systems.",
+          "mistake": "formidable 係「艱巨」；後面可用 to 指出對邊方面有挑戰"
+        }
+      ],
+      "drill": {
+        "items": [
+          {
+            "id": "A",
+            "prompt": "改寫得更學術：用今日搭配取代弱寫法。\n弱：have a lot of problems with / keep suffering from",
+            "type": "rewrite",
+            "answer": "be plagued by",
+            "choices": [],
+            "accept": "be plagued by"
+          },
+          {
+            "id": "B",
+            "prompt": "選正確：Which form is correct for this lesson's collocation?\n（threat / threaten）",
+            "type": "choose",
+            "answer": "threat",
+            "choices": [
+              "threat",
+              "threaten"
+            ]
+          },
+          {
+            "id": "C",
+            "prompt": "填空：Write the collocation that means「容易受到……傷害／影響（較弱勢、抵禦力低）」。",
+            "type": "fill",
+            "answer": "be vulnerable to",
+            "choices": [],
+            "accept": "be vulnerable to"
+          }
+        ]
+      },
+      "passage": "Hong Kong **is plagued by** a persistent shortfall of affordable homes relative to household formation, leaving many applicants on long public rental waiting lists. Social cohesion in densely packed districts can **be under threat** when subdivided flats remain the only immediate option for low-income families. Young tenants **run the risk of** delaying marriage or childcare plans if private rents stay high, while elders living alone **are vulnerable to** isolation when lifts and barrier-free access are poor. Closing the gap between applications and completed Light Public Housing units continues to **present a formidable challenge** within a tight construction and labour market. On balance, accelerating supply must still respect eligibility rules and site safety.",
+      "tasks": [
+        {
+          "q": "文中邊類住屋問題令城市 is plagued？",
+          "answer": "a persistent shortfall of affordable homes / long PRH waiting lists",
+          "type": "open"
+        },
+        {
+          "q": "用自己一句解釋 elders 點解 are vulnerable to isolation（1 句）",
+          "answer": "（例）poor lifts and barrier-free access leave them cut off",
+          "type": "open"
+        },
+        {
+          "q": "True / False：Passage 話 Light Public Housing 供應同申請之間已經完全冇 gap。",
+          "answer": "False",
+          "type": "tf",
+          "choices": [
+            "True",
+            "False"
+          ]
+        }
+      ],
+      "nextTheme": "Solutions and Measures（解決方案與措施）",
+      "sourceFile": "2026-10-01 - Problems and Threats.md"
+    },
+    {
+      "id": "2026-10-05-solutions-and-measures",
+      "lesson": 16,
+      "date": "2026-10-05",
+      "theme": "Solutions and Measures",
+      "title": "Solutions and Measures",
+      "review": [
+        {
+          "phrase": "be plagued by",
+          "yue": ""
+        },
+        {
+          "phrase": "run the risk of",
+          "yue": ""
+        },
+        {
+          "phrase": "be vulnerable to",
+          "yue": ""
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "take decisive action",
+          "weak": "do something",
+          "yue": "果斷採取行動，唔再拖。",
+          "frame": "[Govt/Sb] must take decisive action to + V / against + N",
+          "model": "Governments must take decisive action to curb traffic congestion.",
+          "mistake": "make decisive action → take action"
+        },
+        {
+          "phrase": "find a viable solution to",
+          "weak": "a good way",
+          "yue": "搵到一個實際可行嘅解決方法（viable = 行得通）。",
+          "frame": "find a viable solution to + N",
+          "model": "Experts are still trying to find a viable solution to the housing shortage.",
+          "mistake": "a solution of the problem → a solution to the problem"
+        },
+        {
+          "phrase": "alleviate the pressure on",
+          "weak": "make it less bad",
+          "yue": "紓緩、減輕壓力或問題，但唔係完全解決。",
+          "frame": "[Measure] can help (to) alleviate the pressure on + N",
+          "model": "Expanding the railway network would alleviate the pressure on roads.",
+          "mistake": "using alleviate to mean \"solve completely\" → use solve / resolve"
+        },
+        {
+          "phrase": "raise public awareness of",
+          "weak": "tell people more about",
+          "yue": "提高公眾對某事嘅意識。",
+          "frame": "raise public awareness of + N / of the need to + V",
+          "model": "Campaigns can raise public awareness of the benefits of walking.",
+          "mistake": "rise public awareness → raise (needs an object)"
+        },
+        {
+          "phrase": "provide incentives for sb to + V",
+          "weak": "encourage",
+          "yue": "提供誘因或獎勵，令人願意做某事。",
+          "frame": "provide incentives for + sb + to V",
+          "model": "The government could provide incentives for drivers to switch to public transport.",
+          "mistake": "provide incentives for drivers switching → for drivers to switch"
+        }
+      ],
+      "drill": {
+        "items": [
+          {
+            "id": "A",
+            "prompt": "改寫得更學術：用今日搭配取代弱寫法。\n弱：do something",
+            "type": "rewrite",
+            "answer": "take decisive action",
+            "choices": [],
+            "accept": "take decisive action"
+          },
+          {
+            "id": "B",
+            "prompt": "選正確：Which form is correct for this lesson's collocation?\n（solution / soltuion）",
+            "type": "choose",
+            "answer": "solution",
+            "choices": [
+              "solution",
+              "soltuion"
+            ]
+          },
+          {
+            "id": "C",
+            "prompt": "填空：Campaigns can ______ the benefits of walking.",
+            "type": "fill",
+            "answer": "raise public awareness of",
+            "choices": [],
+            "accept": "raise public awareness of"
+          }
+        ]
+      },
+      "passage": "Congested corridors into the urban core force transport planners to **take decisive action** rather than rely on short-term traffic police deployments alone. Expanding railway capacity is often framed as a way to **find a viable solution to** peak-hour gridlock, while park-and-ride and feeder buses **alleviate the pressure on** limited road space. Public campaigns **raise public awareness of** walking and cycling for short trips, especially near new Northern Metropolis employment nodes. The Government may also **provide incentives for** drivers **to** switch to public transport or cleaner vehicles, subject to the fiscal envelope and charging infrastructure. On balance, a mix of supply-side upgrades and demand management tends to outperform any single slogan measure.",
+      "tasks": [
+        {
+          "q": "文中邊啲措施可以帮助 alleviate the pressure on road space？",
+          "answer": "park-and-ride and feeder buses",
+          "type": "open"
+        },
+        {
+          "q": "用自己一句解釋點解要 take decisive action 多過短期警察調配（1 句）",
+          "answer": "（例）short-term deployments do not fix structural peak-hour gridlock",
+          "type": "open"
+        },
+        {
+          "q": "True / False：Passage 話單一 slogan measure 已經足夠解決塞車。",
+          "answer": "False",
+          "type": "tf",
+          "choices": [
+            "True",
+            "False"
+          ]
+        }
+      ],
+      "nextTheme": "Increase / Decrease / Quantity",
+      "sourceFile": "2026-10-05 - Solutions and Measures.md"
+    },
+    {
+      "id": "2026-10-08-increase-decrease-and-quantity",
+      "lesson": 17,
+      "date": "2026-10-08",
+      "theme": "Increase, Decrease and Quantity",
+      "title": "Increase, Decrease and Quantity",
+      "review": [],
+      "collocations": [
+        {
+          "phrase": "a growing number of",
+          "weak": "more and more people",
+          "yue": "越嚟越多嘅…（強調數量持續增加嘅趨勢）",
+          "frame": "A growing number of + plural noun + plural verb",
+          "model": "A growing number of young people are choosing to work remotely.",
+          "mistake": "✗ A growing number of students is… → ✓ are"
+        },
+        {
+          "phrase": "rise steadily",
+          "weak": "go up slowly",
+          "yue": "穩定、持續咁上升",
+          "frame": "sth + rose steadily + from X to Y / over the period",
+          "model": "The number of tourists rose steadily from 2 million in 2010 to 5 million in 2020.",
+          "mistake": "✗ raised steadily（raise 要有受詞）→ ✓ rose steadily"
+        },
+        {
+          "phrase": "a dramatic fall in",
+          "weak": "go down a lot",
+          "yue": "大幅下跌",
+          "frame": "there was a dramatic fall in + noun",
+          "model": "There was a dramatic fall in car sales during the economic crisis.",
+          "mistake": "✗ a dramatic fall of sales → ✓ a dramatic fall in sales"
+        },
+        {
+          "phrase": "reach a peak of",
+          "weak": "get to the highest point",
+          "yue": "去到最高峰",
+          "frame": "sth + reached a peak of + number + in + year",
+          "model": "Unemployment reached a peak of 8% in 2009.",
+          "mistake": "✗ reached to a peak / ✗ reached a peak at 8% → ✓ reached a peak of 8%"
+        },
+        {
+          "phrase": "level off",
+          "weak": "stop changing",
+          "yue": "升完或跌完之後趨於平穩",
+          "frame": "sth + levelled off + at + number",
+          "model": "After years of rapid growth, the city's population levelled off at around 7.5 million.",
+          "mistake": "✗ levelled off to 7.5 million → ✓ levelled off at; ✗ was levelled off（唔用被動）"
+        }
+      ],
+      "drill": {
+        "items": [
+          {
+            "id": "A",
+            "prompt": "改寫得更學術：用今日搭配取代弱寫法。\n弱：more and more people",
+            "type": "rewrite",
+            "answer": "a growing number of",
+            "choices": [],
+            "accept": "a growing number of"
+          },
+          {
+            "id": "B",
+            "prompt": "選正確：Which form is correct for this lesson's collocation?\n（steadily / stedaily）",
+            "type": "choose",
+            "answer": "steadily",
+            "choices": [
+              "steadily",
+              "stedaily"
+            ]
+          },
+          {
+            "id": "C",
+            "prompt": "填空：Write the collocation that means「去到最高峰」。",
+            "type": "fill",
+            "answer": "reach a peak of",
+            "choices": [],
+            "accept": "reach a peak of"
+          }
+        ]
+      },
+      "passage": "**A growing number of** public rental blocks now take part in food-waste collection pilots linked to Green@Community and downstream treatment. Participation rates **rose steadily** after estate-level education drives, then appeared to **level off** once early adopters were already enrolled. During the pandemic years the city saw **a dramatic fall in** commercial food waste from restaurants, before volumes recovered with dine-in demand. Monthly diversion briefly **reached a peak** after major awareness campaigns, illustrating how take-up can spike and then soften without ongoing outreach. On balance, scaling smart bins remains worthwhile, yet recurrent expenditure and contamination rates still warrant careful review.",
+      "tasks": [
+        {
+          "q": "文中 participation rates 喺早期教育後有咩變化，之後又點？",
+          "answer": "rose steadily, then appeared to level off",
+          "type": "open"
+        },
+        {
+          "q": "用自己一句解釋疫情期間 commercial food waste 點解有 dramatic fall（1 句）",
+          "answer": "（例）restaurant dine-in demand dropped, so commercial food waste fell sharply",
+          "type": "open"
+        },
+        {
+          "q": "True / False：Passage 話 diversion 峰值之後就永遠唔會回落。",
+          "answer": "False",
+          "type": "tf",
+          "choices": [
+            "True",
+            "False"
+          ]
+        }
+      ],
+      "nextTheme": "Opinion, Argument and Conclusion",
+      "sourceFile": "2026-10-08 - Increase Decrease and Quantity.md"
+    },
+    {
+      "id": "2026-10-12-opinion-argument-and-conclusion",
+      "lesson": 18,
+      "date": "2026-10-12",
+      "theme": "Opinion, Argument and Conclusion",
+      "title": "Opinion, Argument and Conclusion",
+      "review": [],
+      "collocations": [
+        {
+          "phrase": "take the stance that",
+          "weak": "think that",
+          "yue": "採取某個明確立場（認為…）",
+          "frame": "sb + take(s) the stance that + clause",
+          "model": "Many educators take the stance that exams alone cannot measure true ability.",
+          "mistake": "✗ take a stance of that… → ✓ take the stance that…"
+        },
+        {
+          "phrase": "put forward the argument that",
+          "weak": "say that",
+          "yue": "提出一個論點／論證",
+          "frame": "sb + put forward the argument that + clause",
+          "model": "Critics put forward the argument that social media harms teenagers' concentration.",
+          "mistake": "✗ put forward an argument of… → ✓ put forward the argument that…"
+        },
+        {
+          "phrase": "make a compelling case for",
+          "weak": "give good reasons for",
+          "yue": "為某事提出有力、令人信服嘅理據",
+          "frame": "sb + make(s) a compelling case for + noun / -ing",
+          "model": "The report makes a compelling case for investing in public libraries.",
+          "mistake": "✗ make a compelling case of / to → ✓ make a compelling case for"
+        },
+        {
+          "phrase": "remain unconvinced by",
+          "weak": "still don't believe",
+          "yue": "仍然唔信服（某理據／說法）",
+          "frame": "sb + remain(s) unconvinced by + noun",
+          "model": "Some parents remain unconvinced by claims that homework improves learning.",
+          "mistake": "✗ remain unconvinced of the claim that…（亦可用 of，但 by + evidence/claims 更自然）→ ✓ remain unconvinced by the evidence"
+        },
+        {
+          "phrase": "weigh up the evidence",
+          "weak": "look at the facts carefully",
+          "yue": "權衡／仔細比較各方面證據先至下判斷",
+          "frame": "sb + weigh(s) up the evidence + before / and then…",
+          "model": "Before forming an opinion, students should weigh up the evidence from both sides.",
+          "mistake": "✗ weigh the evidence up carefully（可分開，但學術寫作多用 weigh up the evidence）→ ✓ weigh up the evidence"
+        }
+      ],
+      "drill": {
+        "items": [
+          {
+            "id": "A",
+            "prompt": "改寫得更學術：用今日搭配取代弱寫法。\n弱：think that",
+            "type": "rewrite",
+            "answer": "take the stance that",
+            "choices": [],
+            "accept": "take the stance that"
+          },
+          {
+            "id": "B",
+            "prompt": "選正確：Which form is correct for this lesson's collocation?\n（that / thate）",
+            "type": "choose",
+            "answer": "that",
+            "choices": [
+              "that",
+              "thate"
+            ]
+          },
+          {
+            "id": "C",
+            "prompt": "填空：Some parents ______ claims that homework improves learning.",
+            "type": "fill",
+            "answer": "remain unconvinced by",
+            "choices": [],
+            "accept": "remain unconvinced by"
+          }
+        ]
+      },
+      "passage": "Many secondary principals **take the stance that** unrestricted smartphone use in class undermines attention, and parent groups often **put forward the argument that** schools should set clearer phone-free periods. Digital-literacy advocates **make a compelling case for** supervised classroom use when tasks genuinely need online research, rather than a blanket ban. Some teachers nonetheless **remain unconvinced by** claims that phones are essential for every subject, citing distraction and cyberbullying risks. Education authorities urge schools to **weigh up the evidence** from pilot rules before city-wide mandates. On balance, phased policies with stakeholder consultation tend to fit Hong Kong’s diverse school cultures better than one absolute rule.",
+      "tasks": [
+        {
+          "q": "文中 digital-literacy advocates make a compelling case for 咩做法？",
+          "answer": "supervised classroom use when tasks need online research（rather than a blanket ban）",
+          "type": "open"
+        },
+        {
+          "q": "用自己一句解釋部分老師點解 remain unconvinced（1 句）",
+          "answer": "（例）they worry about distraction and cyberbullying even when phones are allowed",
+          "type": "open"
+        },
+        {
+          "q": "True / False：Passage 話一個 absolute city-wide ban 係最佳方案。",
+          "answer": "False",
+          "type": "tf",
+          "choices": [
+            "True",
+            "False"
+          ]
+        }
+      ],
+      "nextTheme": "Education",
+      "sourceFile": "2026-10-12 - Opinion Argument Conclusion.md"
+    },
+    {
+      "id": "2026-10-15-education",
+      "lesson": 19,
+      "date": "2026-10-15",
+      "theme": "Education",
+      "title": "Education",
+      "review": [
+        {
+          "phrase": "take the stance that",
+          "yue": "採取某一立場"
+        },
+        {
+          "phrase": "put forward the argument that",
+          "yue": "提出論點"
+        },
+        {
+          "phrase": "make a compelling case for",
+          "yue": "提出有力理據支持"
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "acquire essential skills",
+          "weak": "learn useful stuff",
+          "yue": "掌握關鍵／必需技能",
+          "frame": "acquire essential skills (in / such as …)",
+          "model": "Vocational courses help students acquire essential skills for the workplace.",
+          "mistake": "academic writing 常用 acquire … skills"
+        },
+        {
+          "phrase": "drop out of school",
+          "weak": "leave school early / quit school",
+          "yue": "輟學（中途離校）",
+          "frame": "drop out of school / university / college",
+          "model": "Students who lack support are more likely to drop out of school.",
+          "mistake": "drop out of，唔係 drop out from"
+        },
+        {
+          "phrase": "receive a well-rounded education",
+          "weak": "learn many different subjects",
+          "yue": "接受全面／均衡教育",
+          "frame": "receive a well-rounded education",
+          "model": "Parents want their children to receive a well-rounded education, not only exam drill.",
+          "mistake": "well-rounded（有 hyphen）"
+        },
+        {
+          "phrase": "gain admission to",
+          "weak": "get into (a uni)",
+          "yue": "獲錄取進入（學校／課程）",
+          "frame": "gain admission to + university / programme / course",
+          "model": "Competition to gain admission to top universities remains intense.",
+          "mistake": "正式文多用 gain admission to"
+        },
+        {
+          "phrase": "undertake vocational training",
+          "weak": "do job training / learn a trade",
+          "yue": "接受職業培訓",
+          "frame": "undertake vocational training (in …)",
+          "model": "More young people now undertake vocational training instead of a traditional degree.",
+          "mistake": "undertake + training／study 係學術常用"
+        }
+      ],
+      "drill": {
+        "items": [
+          {
+            "id": "A",
+            "prompt": "改寫得更學術：用今日搭配取代弱寫法。\n弱：learn useful stuff",
+            "type": "rewrite",
+            "answer": "acquire essential skills",
+            "choices": [],
+            "accept": "acquire essential skills"
+          },
+          {
+            "id": "B",
+            "prompt": "選正確：Which form is correct for this lesson's collocation?\n（school / scohol）",
+            "type": "choose",
+            "answer": "school",
+            "choices": [
+              "school",
+              "scohol"
+            ]
+          },
+          {
+            "id": "C",
+            "prompt": "填空：Competition to ______ top universities remains intense.",
+            "type": "fill",
+            "answer": "gain admission to",
+            "choices": [],
+            "accept": "gain admission to"
+          }
+        ]
+      },
+      "passage": "Not every Hong Kong school-leaver will **gain admission to** a highly selective university programme, so pathways that help students **acquire essential skills** for work matter as much as prestige degrees. Learners who struggle academically may **drop out of school** if support is thin, raising long-term costs for both families and social services. A system that lets teenagers **receive a well-rounded education**—including civic, physical, and arts elements—still leaves room for those who prefer to **undertake vocational training** in aviation, healthcare support, or green skills linked to the Greater Bay Area. On balance, broadening routes can reduce mismatch between youth aspirations and labour demand without dismissing academic excellence.",
+      "tasks": [
+        {
+          "q": "文中除咗大學，仲提到邊種訓練路徑？",
+          "answer": "vocational training（aviation, healthcare support, or green skills）",
+          "type": "open"
+        },
+        {
+          "q": "用自己一句解釋 support 唔夠點解可能令學生 drop out（1 句）",
+          "answer": "（例）thin support leaves struggling learners more likely to leave school early",
+          "type": "open"
+        },
+        {
+          "q": "True / False：Passage 話只有 prestige degrees 先算 well-rounded education。",
+          "answer": "False",
+          "type": "tf",
+          "choices": [
+            "True",
+            "False"
+          ]
+        }
+      ],
+      "nextTheme": "Environment（環境）",
+      "sourceFile": "2026-10-15 - Education.md"
+    },
+    {
+      "id": "2026-10-19-environment",
+      "lesson": 20,
+      "date": "2026-10-19",
+      "theme": "Environment",
+      "title": "Environment",
+      "review": [
+        {
+          "phrase": "acquire essential skills",
+          "yue": "學到關鍵技能"
+        },
+        {
+          "phrase": "gain admission to",
+          "yue": "獲錄取入讀"
+        },
+        {
+          "phrase": "undertake vocational training",
+          "yue": "接受職業培訓"
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "tackle climate change",
+          "weak": "deal with / try to stop climate change",
+          "yue": "認真處理氣候變化問題",
+          "frame": "governments / countries / cities + tackle climate change",
+          "model": "Nations must work together to tackle climate change.",
+          "mistake": "tackle the climate / tackle climate changing"
+        },
+        {
+          "phrase": "emit greenhouse gases",
+          "weak": "produce harmful gases",
+          "yue": "排放溫室氣體",
+          "frame": "factories / vehicles / industries + emit greenhouse gases",
+          "model": "Coal-fired power plants still emit greenhouse gases in large amounts.",
+          "mistake": ""
+        },
+        {
+          "phrase": "adopt eco-friendly practices",
+          "weak": "do green things",
+          "yue": "採用環保做法／習慣",
+          "frame": "households / businesses / schools + adopt eco-friendly practices",
+          "model": "More companies are starting to adopt eco-friendly practices in their offices.",
+          "mistake": ""
+        },
+        {
+          "phrase": "cut down on energy consumption",
+          "weak": "use less energy",
+          "yue": "減少能源消耗",
+          "frame": "cut down on + energy consumption / waste / plastic use",
+          "model": "Simple habits at home can help people cut down on energy consumption.",
+          "mistake": ""
+        },
+        {
+          "phrase": "protect endangered species",
+          "weak": "save rare animals",
+          "yue": "保護瀕危物種",
+          "frame": "laws / reserves / efforts + protect endangered species",
+          "model": "National parks play a key role in helping to protect endangered species.",
+          "mistake": ""
+        }
+      ],
+      "drill": {
+        "items": [
+          {
+            "id": "A",
+            "prompt": "改寫得更學術：用今日搭配取代弱寫法。\n弱：deal with / try to stop climate change",
+            "type": "rewrite",
+            "answer": "tackle climate change",
+            "choices": [],
+            "accept": "tackle climate change"
+          },
+          {
+            "id": "B",
+            "prompt": "選正確：Which form is correct for this lesson's collocation?\n（gases / gsaes）",
+            "type": "choose",
+            "answer": "gases",
+            "choices": [
+              "gases",
+              "gsaes"
+            ]
+          },
+          {
+            "id": "C",
+            "prompt": "填空：Simple habits at home can help people ______.",
+            "type": "fill",
+            "answer": "cut down on energy consumption",
+            "choices": [],
+            "accept": "cut down on energy consumption"
+          }
+        ]
+      },
+      "passage": "Hong Kong’s climate plans require households and firms to help **tackle climate change** rather than treat it as a distant overseas debate. Power generation and transport still **emit greenhouse gases** at scale, so the city is phasing in cleaner electricity and tighter vehicle standards. Estates that **adopt eco-friendly practices**—from food-waste separation to smarter lighting—show how daily habits can **cut down on energy consumption** inside the fiscal envelope of ordinary management fees. Wetland and marine protected areas also help **protect endangered species** such as horseshoe crabs and birds that rely on the Deep Bay ecosystem. On balance, infrastructure such as I·PARK must work alongside behaviour change if net-zero pathways are to remain credible.",
+      "tasks": [
+        {
+          "q": "文中 estates 可以採用邊啲 eco-friendly practices？",
+          "answer": "food-waste separation and smarter lighting",
+          "type": "open"
+        },
+        {
+          "q": "用自己一句解釋點解要同時做 I·PARK 同 behaviour change（1 句）",
+          "answer": "（例）treatment capacity alone is not enough without everyday habit change",
+          "type": "open"
+        },
+        {
+          "q": "True / False：Passage 話氣候問題只係 overseas debate，同香港無關。",
+          "answer": "False",
+          "type": "tf",
+          "choices": [
+            "True",
+            "False"
+          ]
+        }
+      ],
+      "nextTheme": "Technology（科技）",
+      "sourceFile": "2026-10-19 - Environment.md"
+    },
+    {
+      "id": "2026-10-22-technology",
+      "lesson": 21,
+      "date": "2026-10-22",
+      "theme": "Technology",
+      "title": "Technology",
+      "review": [
+        {
+          "phrase": "tackle climate change",
+          "yue": "認真處理氣候變化"
+        },
+        {
+          "phrase": "emit greenhouse gases",
+          "yue": "排放溫室氣體"
+        },
+        {
+          "phrase": "adopt eco-friendly practices",
+          "yue": "採用環保做法"
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "harness the power of",
+          "weak": "use the power of / make good use of",
+          "yue": "善用／駕馭……嘅力量（常配 AI、technology、data）",
+          "frame": "harness the power of + AI / technology / data / the internet",
+          "model": "Schools are learning to harness the power of AI to personalise lessons.",
+          "mistake": "harness on the power / harness power of（要有 the）"
+        },
+        {
+          "phrase": "become obsolete",
+          "weak": "become old / out of date",
+          "yue": "變得過時／被淘汰",
+          "frame": "skills / machines / software + become obsolete",
+          "model": "Without lifelong learning, some job skills may become obsolete.",
+          "mistake": "become obsolute；形容詞係 obsolete，唔係 obsoleted 當普通過去式亂用"
+        },
+        {
+          "phrase": "enhance productivity",
+          "weak": "make people work better / improve work",
+          "yue": "提高生產力／工作效率",
+          "frame": "tools / training / flexible hours + enhance productivity",
+          "model": "Remote-work software can enhance productivity when teams communicate clearly.",
+          "mistake": "enhance the productivity of work（多餘）；較自然係 enhance productivity"
+        },
+        {
+          "phrase": "automate routine tasks",
+          "weak": "let computers do boring jobs",
+          "yue": "將例行／重複性工作自動化",
+          "frame": "software / robots / systems + automate routine tasks",
+          "model": "Chatbots can automate routine tasks such as answering FAQs.",
+          "mistake": "automatic routine tasks（要用動詞 automate）"
+        },
+        {
+          "phrase": "gain a competitive edge",
+          "weak": "get an advantage over others",
+          "yue": "取得競爭優勢",
+          "frame": "companies / countries / start-ups + gain a competitive edge (by / through…)",
+          "model": "Investing in green tech can help firms gain a competitive edge.",
+          "mistake": "gain competitive edge（要有 a）；get a competitive edge 口語可以，論文多用 gain"
+        }
+      ],
+      "drill": {
+        "items": [
+          {
+            "id": "A",
+            "prompt": "改寫得更學術：用今日搭配取代弱寫法。\n弱：use the power of / make good use of",
+            "type": "rewrite",
+            "answer": "Companies should harness the power of AI / technology.",
+            "choices": [],
+            "accept": "harness the power of"
+          },
+          {
+            "id": "B",
+            "prompt": "選正確：Which form is correct for this lesson's collocation?\n（obsolete / obsolute）",
+            "type": "choose",
+            "answer": "obsolete",
+            "choices": [
+              "obsolete",
+              "obsolute"
+            ]
+          },
+          {
+            "id": "C",
+            "prompt": "填空：Chatbots can ______ such as answering FAQs.",
+            "type": "fill",
+            "answer": "automate routine tasks",
+            "choices": [],
+            "accept": "automate routine tasks"
+          }
+        ]
+      },
+      "passage": "Hong Kong public agencies and local firms increasingly **harness the power of** artificial intelligence to triage enquiries and spot anomalies in large datasets. Paper-based workflows that once defined counter services can quickly **become obsolete** when residents expect mobile updates. Used well, automation can **enhance productivity** in back-office teams as staff **automate routine tasks** such as form checking and appointment reminders. Early movers in fintech and smart-city pilots may **gain a competitive edge** in the wider Greater Bay Area market, provided skills training keeps pace. On balance, productivity gains still depend on change management and clear rules on data use—not on tools alone.",
+      "tasks": [
+        {
+          "q": "文中邊啲 routine tasks 可以用自動化處理？",
+          "answer": "form checking and appointment reminders",
+          "type": "open"
+        },
+        {
+          "q": "用自己一句解釋點解 paper-based workflows 可能 become obsolete（1 句）",
+          "answer": "（例）residents now expect mobile updates, so counter paper processes lag behind",
+          "type": "open"
+        },
+        {
+          "q": "True / False：Passage 話只要買工具就一定 enhance productivity，唔使管 change management。",
+          "answer": "False",
+          "type": "tf",
+          "choices": [
+            "True",
+            "False"
+          ]
+        }
+      ],
+      "nextTheme": "Health（健康）",
+      "sourceFile": "2026-10-22 - Technology.md"
+    },
+    {
+      "id": "2026-10-26-health",
+      "lesson": 22,
+      "date": "2026-10-26",
+      "theme": "Health",
+      "title": "Health",
+      "review": [
+        {
+          "phrase": "harness the power of",
+          "yue": "善用／駕馭……嘅力量"
+        },
+        {
+          "phrase": "become obsolete",
+          "yue": "變得過時／被淘汰"
+        },
+        {
+          "phrase": "enhance productivity",
+          "yue": "提高生產力／工作效率"
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "maintain a balanced diet",
+          "weak": "eat healthy food / have a good diet",
+          "yue": "保持均衡飲食",
+          "frame": "maintain a balanced diet (+ of fruit, vegetables, and whole grains)",
+          "model": "Teenagers who maintain a balanced diet tend to concentrate better at school.",
+          "mistake": "maintain balanced diet（要有 a）；論文多用 maintain 多過 keep"
+        },
+        {
+          "phrase": "be prone to",
+          "weak": "easily get / often get",
+          "yue": "容易（患上／出現……）",
+          "frame": "be prone to + illness / injury / stress / infection",
+          "model": "Office workers who sit all day are prone to back pain.",
+          "mistake": "prone for / prone of（介詞要用 to）"
+        },
+        {
+          "phrase": "seek medical attention",
+          "weak": "go to the doctor / see a doctor",
+          "yue": "求醫／尋求醫療協助",
+          "frame": "seek medical attention (+ immediately / for + symptom)",
+          "model": "Anyone with a high fever should seek medical attention without delay.",
+          "mistake": "seek for medical attention（seek 後面唔使 for）"
+        },
+        {
+          "phrase": "curb the spread of",
+          "weak": "stop / reduce the spreading of",
+          "yue": "遏止……嘅傳播（疾病、病毒）",
+          "frame": "curb the spread of + disease / virus / infection",
+          "model": "Masks and vaccines help curb the spread of infectious diseases.",
+          "mistake": "curb spreading of（要有 the spread of）"
+        },
+        {
+          "phrase": "promote mental well-being",
+          "weak": "make people feel happier / look after mental health",
+          "yue": "促進心理健康／精神健康",
+          "frame": "promote mental well-being (+ through / by + V-ing)",
+          "model": "Schools can promote mental well-being through counselling and peer support.",
+          "mistake": "promote the mental well-being（通常唔加 the）；well-being 有連字號較常見"
+        }
+      ],
+      "drill": {
+        "items": [
+          {
+            "id": "A",
+            "prompt": "改寫得更學術：用今日搭配取代弱寫法。\n弱：eat healthy food / have a good diet",
+            "type": "rewrite",
+            "answer": "People should maintain a balanced diet every day.（或 Employees ought to maintain a balanced diet.）",
+            "choices": [],
+            "accept": "maintain a balanced diet"
+          },
+          {
+            "id": "B",
+            "prompt": "選正確：Which form is correct for this lesson's collocation?\n（prone / porne）",
+            "type": "choose",
+            "answer": "prone",
+            "choices": [
+              "prone",
+              "porne"
+            ]
+          },
+          {
+            "id": "C",
+            "prompt": "填空：Masks and vaccines help ______ infectious diseases.",
+            "type": "fill",
+            "answer": "curb the spread of",
+            "choices": [],
+            "accept": "curb the spread of"
+          }
+        ]
+      },
+      "passage": "District Health Centres encourage residents to **maintain a balanced diet** and stay active before lifestyle diseases set in, especially among desk-bound workers who **are prone to** metabolic problems. When fever or chest symptoms persist, nurses advise people to **seek medical attention** through family-medicine slots or Hospital Authority clinics rather than wait until Accident and Emergency is the only option. Seasonal vaccination and clearer sick-leave norms help **curb the spread of** influenza in crowded offices and schools. Parallel programmes **promote mental well-being** via counselling referrals and caregiver support, recognising that stress and poor sleep feed the same cycle of ill health. On balance, prevention works best when eHealth take-up and means-tested fee relief keep primary care accessible.",
+      "tasks": [
+        {
+          "q": "文中邊啲做法可以帮助 curb the spread of influenza？",
+          "answer": "Seasonal vaccination and clearer sick-leave norms",
+          "type": "open"
+        },
+        {
+          "q": "用自己一句解釋點解要 early seek medical attention（1 句）",
+          "answer": "（例）early care via family-medicine／HA clinics avoids waiting until only A&E is left",
+          "type": "open"
+        },
+        {
+          "q": "True / False：Passage 話 promote mental well-being 同身體病痛無關。",
+          "answer": "False",
+          "type": "tf",
+          "choices": [
+            "True",
+            "False"
+          ]
+        }
+      ],
+      "nextTheme": "Government and Society（政府與社會）",
+      "sourceFile": "2026-10-26 - Health.md"
+    },
+    {
+      "id": "2026-10-29-government-society",
+      "lesson": 23,
+      "date": "2026-10-29",
+      "theme": "Government Society",
+      "title": "Government Society",
+      "review": [
+        {
+          "phrase": "maintain a balanced diet",
+          "yue": "保持均衡飲食"
+        },
+        {
+          "phrase": "be prone to",
+          "yue": "容易患上／傾向於"
+        },
+        {
+          "phrase": "seek medical attention",
+          "yue": "求醫／尋求醫療協助"
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "foster social cohesion",
+          "weak": "make people get along / bring people together",
+          "yue": "促進社會凝聚力（令唔同背景嘅人更有歸屬感）",
+          "frame": "foster social cohesion (through / among / in + community)",
+          "model": "District Care Teams help foster social cohesion by linking elderly residents with neighbours and local services.",
+          "mistake": "foster the social cohesive（要用 social cohesion；通常唔加 the）"
+        },
+        {
+          "phrase": "uphold the rule of law",
+          "weak": "follow the law carefully / respect the law",
+          "yue": "維護法治（人人平等、依法辦事）",
+          "frame": "uphold the rule of law; be committed to upholding the rule of law",
+          "model": "Clear enforcement and fair procedures are needed to uphold the rule of law in everyday disputes.",
+          "mistake": "uphold the rule of the law（固定係 the rule of law，law 前面唔再加 the）"
+        },
+        {
+          "phrase": "enhance social mobility",
+          "weak": "help poor people move up / give people a better chance",
+          "yue": "提升社會流動性（畀基層有機會向上流動）",
+          "frame": "enhance / improve / promote social mobility",
+          "model": "Skills training and targeted scholarships can enhance social mobility for young people from less affluent families.",
+          "mistake": "enhance the social mobile（要用 social mobility）"
+        },
+        {
+          "phrase": "restore public confidence",
+          "weak": "make people trust again / win back trust",
+          "yue": "重建公眾信心",
+          "frame": "restore public confidence (in + institution / service)",
+          "model": "Timely updates on waiting lists help restore public confidence in housing delivery.",
+          "mistake": "restore the public's confidences（confidence 通常唔加複數；public confidence 係固定搭配）"
+        },
+        {
+          "phrase": "conduct public consultation",
+          "weak": "ask the public for opinions / collect views",
+          "yue": "進行公眾諮詢（收集市民同持份者意見）",
+          "frame": "conduct public consultation (on + policy / proposal); after conducting public consultation",
+          "model": "Before expanding district services, bureaux typically conduct public consultation to map service gaps.",
+          "mistake": "conduct a public consult（要用 public consultation）"
+        }
+      ],
+      "drill": {
+        "items": [
+          {
+            "id": "A",
+            "prompt": "填空（今日 5 個搭配）：Youth hostels and vocational pathways are designed to ________ ________ ________.",
+            "type": "fill",
+            "answer": "enhance social mobility",
+            "choices": []
+          },
+          {
+            "id": "B",
+            "prompt": "選較好一句：(a) The bureau asked people opinions. / (b) The bureau conducted public consultation on the proposal.",
+            "type": "choose",
+            "answer": "(b) The bureau conducted public consultation on the proposal.",
+            "choices": []
+          },
+          {
+            "id": "C",
+            "prompt": "改錯：Fair courts uphold the rule of the law.",
+            "type": "rewrite",
+            "answer": "uphold the rule of law（唔好寫 the rule of the law）",
+            "choices": []
+          }
+        ]
+      },
+      "passage": "Hong Kong's district-based Care Teams were expanded to bring support closer to households that face a clear **service gap**. When frontline workers connect isolated elderly residents with meals, home visits, and nearby clinics, they also help **foster social cohesion** between neighbours who rarely meet. At the same time, skills programmes and means-tested study support try to **enhance social mobility** so that background does not lock young people out of better jobs. Because trust is fragile after long waits for public housing and other services, bureaux now publish phased roll-out timelines to **restore public confidence**. Before new district measures go city-wide, officials usually **conduct public consultation** so stakeholder concerns shape the final design. Taken together, these steps show how calm, rules-based delivery can **uphold the rule of law** while still answering everyday social needs.",
+      "tasks": [
+        {
+          "q": "List the five taught collocations used in the passage.",
+          "answer": "foster social cohesion; enhance social mobility; restore public confidence; conduct public consultation; uphold the rule of law",
+          "type": "open"
+        },
+        {
+          "q": "In one sentence, what problem does publishing roll-out timelines try to fix?",
+          "answer": "（例）to restore public confidence after long waits / rebuild trust in service delivery",
+          "type": "open"
+        },
+        {
+          "q": "Match: Care Teams → ? ; skills / study support → ? ; consultation → ?（選：social mobility / cohesion / policy design）",
+          "answer": "Care Teams → cohesion; skills / study support → social mobility; consultation → policy design",
+          "type": "choose"
+        }
+      ],
+      "nextTheme": "Importance / role（重要性／角色；cycle restart）",
+      "sourceFile": "2026-10-29 - Government Society.md"
+    },
+    {
+      "id": "2026-11-02-importance-role",
+      "lesson": 24,
+      "date": "2026-11-02",
+      "theme": "Importance Role",
+      "title": "Importance Role",
+      "review": [
+        {
+          "phrase": "foster social cohesion",
+          "yue": "促進社會凝聚力"
+        },
+        {
+          "phrase": "uphold the rule of law",
+          "yue": "維護法治"
+        },
+        {
+          "phrase": "enhance social mobility",
+          "yue": "提升社會流動性"
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "play a pivotal role in",
+          "weak": "be very important in / be the main part of",
+          "yue": "喺……入面發揮關鍵／樞紐作用",
+          "frame": "play a pivotal role in + noun / -ing",
+          "model": "District Health Centres play a pivotal role in shifting routine care away from crowded hospital wards.",
+          "mistake": "play a pivotal role on（介詞用 in，唔係 on）"
+        },
+        {
+          "phrase": "be of paramount importance",
+          "weak": "be the most important / be extremely important",
+          "yue": "極為重要；至關重要",
+          "frame": "be of paramount importance (to / for + noun); It is of paramount importance that…",
+          "model": "Reliable waiting-time data is of paramount importance when families choose a clinic or specialist pathway.",
+          "mistake": "be of paramount important（要用名詞 importance，唔係 important）"
+        },
+        {
+          "phrase": "serve as a cornerstone of",
+          "weak": "be the basic support of / be the foundation of",
+          "yue": "作為……嘅基石／支柱",
+          "frame": "serve as a cornerstone of + system / strategy / policy",
+          "model": "Community nursing now serves as a cornerstone of Hong Kong's primary healthcare strategy.",
+          "mistake": "serve as a corner stone for（寫成一個字 cornerstone；後面多用 of）"
+        },
+        {
+          "phrase": "lie at the heart of",
+          "weak": "be the central idea of / be the core of",
+          "yue": "處於……嘅核心；係……最關鍵嘅部分",
+          "frame": "lie at the heart of + plan / debate / reform",
+          "model": "Prevention and early detection lie at the heart of the Hospital Authority's chronic-disease programmes.",
+          "mistake": "lie in the heart of（固定係 at the heart of）"
+        },
+        {
+          "phrase": "be indispensable to",
+          "weak": "be needed a lot by / cannot work without",
+          "yue": "對……不可或缺",
+          "frame": "be indispensable to + noun / -ing; an indispensable part of",
+          "model": "Cross-bureau coordination is indispensable to reducing avoidable accident-and-emergency attendances.",
+          "mistake": "be indispensable for to（介詞用 to；或者改寫 indispensable for + noun，唔好兩個一齊用）"
+        }
+      ],
+      "drill": {
+        "items": [
+          {
+            "id": "A",
+            "prompt": "填空（今日 5 個搭配）：Prevention and early detection ________ ________ ________ ________ the chronic-disease programmes.",
+            "type": "fill",
+            "answer": "lie at the heart of",
+            "choices": []
+          },
+          {
+            "id": "B",
+            "prompt": "選較好一句：(a) eHealth records are of paramount important. / (b) eHealth records are of paramount importance.",
+            "type": "choose",
+            "answer": "(b) eHealth records are of paramount importance.",
+            "choices": []
+          },
+          {
+            "id": "C",
+            "prompt": "改錯：District clinics play a pivotal role on primary care.",
+            "type": "rewrite",
+            "answer": "play a pivotal role in（介詞用 in，唔係 on）",
+            "choices": []
+          }
+        ]
+      },
+      "passage": "Hong Kong's primary healthcare reform puts neighbourhood clinics closer to where people live and work. District Health Centres now **play a pivotal role in** catching hypertension and diabetes early, before patients need a hospital bed. For that shift to work, shared eHealth records **are of paramount importance**: without them, family doctors and specialists cannot see the same test history. Community nursing **serves as a cornerstone of** follow-up care after discharge, cutting repeat visits that strain the fiscal envelope. In practice, prevention and lifestyle advice **lie at the heart of** these programmes, not only medicine after a crisis. Smooth data-sharing across the Hospital Authority and private providers **is indispensable to** closing the remaining service gap and easing pressure on accident-and-emergency departments.",
+      "tasks": [
+        {
+          "q": "List the five taught collocations used in the passage.",
+          "answer": "play a pivotal role in; be of paramount importance; serve as a cornerstone of; lie at the heart of; be indispensable to",
+          "type": "open"
+        },
+        {
+          "q": "In one sentence, why are shared eHealth records described as so important?",
+          "answer": "（例）so family doctors and specialists can see the same test history / care cannot shift without shared records",
+          "type": "open"
+        },
+        {
+          "q": "Match: District Health Centres → ? ; community nursing → ? ; prevention advice → ?（選：pivotal role / cornerstone / heart of the programmes）",
+          "answer": "District Health Centres → pivotal role; community nursing → cornerstone; prevention advice → heart of the programmes",
+          "type": "choose"
+        }
+      ],
+      "nextTheme": "Impact / effect（影響／效果）",
+      "sourceFile": "2026-11-02 - Importance Role.md"
+    },
+    {
+      "id": "2026-11-05-impact-effect",
+      "lesson": 25,
+      "date": "2026-11-05",
+      "theme": "Impact & Effect",
+      "title": "Impact & Effect",
+      "review": [
+        {
+          "phrase": "play a pivotal role in",
+          "yue": "喺……入面發揮關鍵作用"
+        },
+        {
+          "phrase": "be of paramount importance",
+          "yue": "極為重要"
+        },
+        {
+          "phrase": "serve as a cornerstone of",
+          "yue": "作為……嘅基石"
+        },
+        {
+          "phrase": "lie at the heart of",
+          "yue": "處於……嘅核心"
+        },
+        {
+          "phrase": "be indispensable to",
+          "yue": "對……不可或缺"
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "have far-reaching consequences for",
+          "weak": "affect many things",
+          "yue": "對……造成深遠影響",
+          "frame": "have far-reaching consequences for + person / group / issue",
+          "model": "A major change to the transport network can have far-reaching consequences for neighbourhood businesses.",
+          "mistake": "consequences to local shops → consequences for local shops"
+        },
+        {
+          "phrase": "have a knock-on effect on",
+          "weak": "cause another effect on",
+          "yue": "對……產生連鎖影響",
+          "frame": "have a knock-on effect on + noun",
+          "model": "Longer travel times can have a knock-on effect on workers' childcare arrangements.",
+          "mistake": "a knock-on effect to housing → a knock-on effect on housing"
+        },
+        {
+          "phrase": "make a significant difference to",
+          "weak": "help a lot",
+          "yue": "對……帶來顯著改變",
+          "frame": "make a significant difference to + noun",
+          "model": "Step-free access can make a significant difference to passengers with mobility needs.",
+          "mistake": "make a significant difference for access → make a significant difference to access"
+        },
+        {
+          "phrase": "exert a positive influence on",
+          "weak": "encourage",
+          "yue": "對……發揮正面影響",
+          "frame": "exert a positive influence on + behaviour / choice / outcome",
+          "model": "Reliable train services can exert a positive influence on commuters' travel choices.",
+          "mistake": "influence to travel choices → influence on travel choices"
+        },
+        {
+          "phrase": "take a toll on",
+          "weak": "harm / make life harder for",
+          "yue": "對……造成損害／帶來負面影響",
+          "frame": "take a toll on + person / health / daily life",
+          "model": "Frequent delays can take a toll on commuters' well-being.",
+          "mistake": "take a toll to commuters → take a toll on commuters"
+        }
+      ],
+      "drill": {
+        "items": [
+          {
+            "id": "A",
+            "prompt": "填空：A new rail line can ________ ________ ________ ________ neighbourhood businesses.",
+            "type": "fill",
+            "answer": "have far-reaching consequences for",
+            "choices": []
+          },
+          {
+            "id": "B",
+            "prompt": "選正確介詞：Delays can take a toll (on / to) commuters.",
+            "type": "choose",
+            "answer": "on",
+            "choices": [
+              "on",
+              "to"
+            ]
+          },
+          {
+            "id": "C",
+            "prompt": "改錯：Better bus connections have a knock-on effect to housing demand.",
+            "type": "rewrite",
+            "answer": "Better bus connections have a knock-on effect on housing demand.",
+            "choices": []
+          }
+        ]
+      },
+      "passage": "Hong Kong's new rail links could **have far-reaching consequences for** the communities they connect. Shorter journeys may bring more customers to local shops, while rising housing demand could **have a knock-on effect on** rents. For older residents and passengers with mobility needs, lifts and step-free routes can **make a significant difference to** everyday travel. Frequent, reliable services can also **exert a positive influence on** people's choices by making public transport easier to use. By contrast, delays and overcrowding may **take a toll on** commuters' well-being.",
+      "tasks": [
+        {
+          "q": "List the five taught collocations used in the passage.",
+          "answer": "have far-reaching consequences for; have a knock-on effect on; make a significant difference to; exert a positive influence on; take a toll on",
+          "type": "open"
+        },
+        {
+          "q": "In one sentence, name one possible effect of new rail links on local shops or housing.",
+          "answer": "Shorter journeys may bring more customers to local shops / rising housing demand could affect rents.",
+          "type": "open"
+        },
+        {
+          "q": "Match: lifts and step-free routes → ? ; reliable services → ? ; delays and overcrowding → ?（選：positive influence on travel choices / difference to everyday travel / toll on commuters' well-being）",
+          "answer": "Lifts and step-free routes → difference to everyday travel; reliable services → positive influence on travel choices; delays and overcrowding → toll on commuters' well-being",
+          "type": "choose"
+        }
+      ],
+      "nextTheme": "Cause and result",
+      "sourceFile": "2026-11-05 - Impact Effect.md"
+    },
+    {
+      "id": "2026-11-08-cause-and-result",
+      "lesson": 26,
+      "date": "2026-11-08",
+      "theme": "Cause and Result",
+      "title": "Cause and Result",
+      "review": [
+        {
+          "phrase": "have far-reaching consequences for",
+          "yue": "對……造成深遠影響"
+        },
+        {
+          "phrase": "have a knock-on effect on",
+          "yue": "對……產生連鎖影響"
+        },
+        {
+          "phrase": "make a significant difference to",
+          "yue": "對……帶來顯著改變"
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "stem from",
+          "weak": "come from / be because of",
+          "yue": "源自……；由……引起",
+          "frame": "stem from + a cause / problem / decision",
+          "model": "Unequal access to career advice may stem from differences in school resources.",
+          "mistake": "stem from of（from 已經係介詞，後面直接接名詞）"
+        },
+        {
+          "phrase": "contribute to",
+          "weak": "help cause",
+          "yue": "促成／導致（某個結果，未必係唯一原因）",
+          "frame": "contribute to + noun / -ing",
+          "model": "Practical work placements can contribute to a smoother transition from school to employment.",
+          "mistake": "contribute for（表示「促成」時用 to）"
+        },
+        {
+          "phrase": "set off a chain reaction",
+          "weak": "cause many connected changes",
+          "yue": "引發一連串互相關連嘅變化",
+          "frame": "set off a chain reaction of + noun",
+          "model": "A well-matched internship can set off a chain reaction of new skills, contacts and job opportunities.",
+          "mistake": "set out a chain reaction（固定搭配係 set off，即「引發」）"
+        },
+        {
+          "phrase": "pave the way for",
+          "weak": "make it possible for",
+          "yue": "為……鋪路；創造條件令……更容易發生",
+          "frame": "pave the way for + noun / someone to + verb",
+          "model": "Early exposure to different industries can pave the way for better-informed career choices.",
+          "mistake": "pave the way to young people（後面接名詞用 for；接地方先用 to）"
+        },
+        {
+          "phrase": "culminate in",
+          "weak": "end with / finally lead to",
+          "yue": "最終以……告終／發展成……",
+          "frame": "culminate in + noun / -ing",
+          "model": "Years of training and workplace experience may culminate in a stable career.",
+          "mistake": "culminate to（結果前面用 in）"
+        }
+      ],
+      "drill": {
+        "items": [
+          {
+            "id": "A",
+            "prompt": "填空：A skills gap may ________ ________ differences in access to training.",
+            "type": "fill",
+            "answer": "stem from",
+            "choices": []
+          },
+          {
+            "id": "B",
+            "prompt": "選正確介詞：(a) contribute for a stronger workforce / (b) contribute to a stronger workforce",
+            "type": "choose",
+            "answer": "(b) contribute to a stronger workforce",
+            "choices": []
+          },
+          {
+            "id": "C",
+            "prompt": "改錯：The programme culminated to a series of paid placements.",
+            "type": "rewrite",
+            "answer": "The programme culminated in a series of paid placements.",
+            "choices": []
+          }
+        ]
+      },
+      "passage": "At the Youth Development Summit on 7 November, Hong Kong's Chief Secretary said the Youth Development Blueprint had implemented nearly 300 initiatives in four years. This work **stems from** policy efforts to link young people's development with the city's economic needs. The latest Policy Address also prioritises youth development and expands internships and training in areas such as finance, aerospace technology, research and AI. By gaining practical experience, participants can **contribute to** a smoother school-to-work transition; successful placements may then **set off a chain reaction of** new skills, employer contacts and further opportunities. Fair access and clear guidance can **pave the way for** more young people to benefit. With regular evaluation, these connected measures may **culminate in** stronger career prospects and a more adaptable workforce.",
+      "tasks": [
+        {
+          "q": "What is one reason given for connecting youth development with economic needs?",
+          "answer": "To link young people's development with the city's economic needs.",
+          "type": "open"
+        },
+        {
+          "q": "According to the passage, name two possible links in the chain reaction after a successful placement.",
+          "answer": "New skills, employer contacts or further opportunities (any two).",
+          "type": "open"
+        },
+        {
+          "q": "What two conditions could help more young people benefit from the measures?",
+          "answer": "Fair access and clear guidance.",
+          "type": "open"
+        }
+      ],
+      "nextTheme": "Problems and threats（問題與威脅）",
+      "sourceFile": "2026-11-08 - Cause and Result.md"
+    },
+    {
+      "id": "2026-11-10-problems-and-threats",
+      "lesson": 27,
+      "date": "2026-11-10",
+      "theme": "Problems and Threats",
+      "title": "Problems and Threats",
+      "review": [
+        {
+          "phrase": "stem from",
+          "yue": "源自……；由……引起"
+        },
+        {
+          "phrase": "set off a chain reaction",
+          "yue": "引發一連串互相關連嘅變化"
+        },
+        {
+          "phrase": "pave the way for",
+          "yue": "為……鋪路；創造條件令……更容易發生"
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "be fraught with danger",
+          "weak": "be full of danger / have many risks",
+          "yue": "充滿危險／危機四伏（亦常見 `be fraught with risks / difficulties`）",
+          "frame": "be fraught with + danger / risks / difficulties",
+          "model": "Clicking on unverified payment links is fraught with danger for online shoppers.",
+          "mistake": "be fraught of danger（固定搭配介詞係 with，唔係 of）"
+        },
+        {
+          "phrase": "expose someone to the risk of",
+          "weak": "put someone in danger of",
+          "yue": "令某人暴露於……嘅風險之中",
+          "frame": "expose + person / group + to the risk of + noun / -ing",
+          "model": "Sharing one-time passwords exposes customers to the risk of unauthorized bank transfers.",
+          "mistake": "expose customers with the risk（固定結構係 expose sb to sth，介詞用 to）"
+        },
+        {
+          "phrase": "fall victim to",
+          "weak": "get tricked by / suffer because of",
+          "yue": "成為……嘅受害者；不幸中招／受騙",
+          "frame": "fall victim to + crime / fraud / problem",
+          "model": "Even cautious shoppers can fall victim to phishing links that imitate real payment pages.",
+          "mistake": "fall a victim of（固定動詞片語係 fall victim to，唔加 a，介詞用 to；若用名詞結構先寫 become a victim of）"
+        },
+        {
+          "phrase": "compound the problem",
+          "weak": "make the problem even worse",
+          "yue": "令問題雪上加霜；進一步加劇原有問題",
+          "frame": "compound the problem (of + noun) / be compounded by + noun",
+          "model": "Counterfeit department logos compound the problem by making fake notices look official.",
+          "mistake": "compound to the problem（compound 係及物動詞，直接接 the problem，唔使加 to）"
+        },
+        {
+          "phrase": "undermine public trust in",
+          "weak": "make people trust ... less",
+          "yue": "削弱／動搖公眾對……嘅信任",
+          "frame": "undermine (public) trust / confidence in + institution / system",
+          "model": "Rampant impersonation scams can undermine public trust in digital payment platforms and government notices.",
+          "mistake": "undermine public trust on（trust 或 confidence 後面接對象時用介詞 in，唔係 on）"
+        }
+      ],
+      "drill": {
+        "items": [
+          {
+            "id": "A",
+            "prompt": "填空：Clicking on unverified SMS hyperlinks ________ ________ ________ ________ for banking customers.",
+            "type": "fill",
+            "answer": "is fraught with danger",
+            "choices": []
+          },
+          {
+            "id": "B",
+            "prompt": "選正確介詞：Rampant impersonation scams can undermine public trust (in / on) digital payment systems.",
+            "type": "choose",
+            "answer": "in",
+            "choices": [
+              "in",
+              "on"
+            ]
+          },
+          {
+            "id": "C",
+            "prompt": "改錯：Fake government logos compound to the problem of online fraud.",
+            "type": "rewrite",
+            "answer": "Fake government logos compound the problem of online fraud.（compound 直接接賓語，唔加 to）",
+            "choices": []
+          }
+        ]
+      },
+      "passage": "On 9 November, separate alerts from the Hong Kong Monetary Authority (HKMA), Hong Kong Interbank Clearing Limited (HKICL) and the Environmental Protection Department (EPD) highlighted how responding to unverified online links **is fraught with danger**. Fraudsters have created bogus bank login screens, a fake Faster Payment System (FPS) \"Buyer Online Protection\" website, and posters for a fabricated \"Renewable Resource Recovery Incentive Scheme\". Because these schemes mimic everyday banking and recycling services, even attentive residents may **fall victim to** phishing. Disclosing login credentials or one-time passwords **exposes users to the risk of** immediate financial loss. Counterfeit department logos and fake customer-service agents **compound the problem** by making scams harder to detect, while repeated impersonation of public bodies can **undermine public trust in** genuine digital services and green subsidies.",
+      "tasks": [
+        {
+          "q": "Which three Hong Kong public bodies issued scam alerts on 9 November, and what fake schemes or websites were involved?",
+          "answer": "The HKMA (bogus bank login screens / apps), HKICL (a fake FPS \"Buyer Online Protection\" website), and the EPD (posters for a fabricated \"Renewable Resource Recovery Incentive Scheme\").",
+          "type": "open"
+        },
+        {
+          "q": "According to the passage, why do counterfeit logos and fake customer-service agents compound the problem?",
+          "answer": "Because they make the scams look official and harder for the public to detect.",
+          "type": "open"
+        },
+        {
+          "q": "True / False：The HKMA and the EPD sometimes ask citizens to submit banking credentials or one-time passwords through embedded SMS links.",
+          "answer": "False",
+          "type": "tf",
+          "choices": [
+            "True",
+            "False"
+          ]
+        }
+      ],
+      "nextTheme": "Solutions and measures（解決方案與措施）",
+      "sourceFile": "2026-11-10 - Problems and Threats.md"
+    }
+  ]
+}

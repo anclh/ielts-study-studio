@@ -40,7 +40,10 @@ export function Practice({ questions, progress, onProgressChange }: Props) {
     setLevel('B1')
   }
   const start = () => {
-    const chosen = getPracticeSet(questions, skill, type, level)
+    const matching = questions.filter(question => question.skill === skill && question.type === type && question.level === level)
+    const completed = progress.practiceSets.filter(result => result.skill === skill && result.type === type && result.level === level).length
+    const offset = (completed % Math.max(1, Math.floor(matching.length / 5))) * 5
+    const chosen = getPracticeSet(matching.slice(offset), skill, type, level)
     if (chosen.length < 5) return
     setSet(chosen)
     setIndex(0)

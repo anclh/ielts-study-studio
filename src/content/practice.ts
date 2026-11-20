@@ -16,6 +16,10 @@ const research = 'A university team studied how short breaks affect concentratio
 const library = 'The Riverside Tool Library began in 2021 to help residents borrow equipment they use only occasionally. Members can reserve a drill or ladder online and collect it on Wednesday evenings. Borrowing is free, but damaged items must be reported. Last year volunteers repaired 120 tools. The organisers hope to open on Sundays, although they have not yet found enough volunteers.'
 const roofs = 'Researchers compared the temperatures of buildings with different roof surfaces during a summer study. Roofs covered with plants remained cooler during the afternoon than dark conventional roofs. However, installation costs varied considerably, and the team did not measure winter energy use. The researchers suggest that building owners consider local rainfall before choosing plants.'
 
+const facts = ['TRUE', 'FALSE', 'NOT GIVEN']
+const repair = 'The Hillview Repair Café opens on the first Saturday of each month. Visitors must book in advance and may bring one item to a 25-minute appointment. Volunteers show them how to fix small appliances and clothes. The service is free, although visitors pay for replacement parts. For safety, volunteers do not accept petrol-powered equipment. The waiting area is in the courtyard.'
+const light = 'A pilot study examined street lighting on 12 residential streets. On six streets, lamps were dimmed after midnight. On the other six, lamp settings were unchanged. The team used meters to take readings at ground level and counted insects near each lamp. More moths were recorded near dimmed lamps. The authors recommend repeating the trial on busier roads and in other neighbourhoods before changing lighting across the city.'
+
 export const practiceQuestions: PracticeQuestion[] = [
   ...makeQuestions('library-tf', 'reading', 'true-false-not-given', 'B1', [
     ['The tool library opened in 2021.', 'TRUE', '首句指出開放年份。', library, ['TRUE', 'FALSE', 'NOT GIVEN']],
@@ -101,5 +105,61 @@ export const practiceQuestions: PracticeQuestion[] = [
     ['Bring your student _____. (ONE WORD)', 'card', '錄音請學生帶學生證。', 'Remember to bring your student card.'],
     ['The workshop starts at _____ o’clock. (ONE NUMBER)', '3', '錄音說工作坊三點開始。', 'The workshop starts at three o clock in the afternoon.'],
     ['The fee is _____ pounds. (ONE NUMBER)', '15', '錄音說費用為十五英鎊。', 'The fee for the workshop is fifteen pounds.'],
+  ]),
+  ...makeQuestions('repair-tf-b1', 'reading', 'true-false-not-given', 'B1', [
+    ['The café runs twice a month.', 'FALSE', '活動每月一次。', repair, facts],
+    ['Visitors must book a place.', 'TRUE', '文中說明須提前預約。', repair, facts],
+    ['Visitors pay for any replacement parts used.', 'TRUE', '維修服務免費，但零件須自費。', repair, facts],
+    ['Most volunteers are retired engineers.', 'NOT GIVEN', '短文沒有交代義工的職業背景。', repair, facts],
+    ['Volunteers will accept petrol-powered equipment.', 'FALSE', '文中說明不收汽油動力設備。', repair, facts],
+  ]),
+  ...makeQuestions('repair-gap-b1', 'reading', 'reading-gap', 'B1', [
+    ['The café opens on the first _____ of each month. (ONE WORD)', 'Saturday', '活動在每月第一個星期六舉行。', repair],
+    ['Each appointment lasts _____ minutes. (ONE NUMBER)', '25', '每節預約時段為 25 分鐘。', repair],
+    ['Volunteers show visitors how to repair small appliances and _____. (ONE WORD)', 'clothes', '可維修小型電器及衣物。', repair],
+    ['Visitors cover the cost of replacement _____. (ONE WORD)', 'parts', '免費維修不包括零件費。', repair],
+    ['The waiting area is in the _____. (ONE WORD)', 'courtyard', '等候區設於庭院。', repair],
+  ]),
+  ...makeQuestions('light-tf-b2', 'reading', 'true-false-not-given', 'B2', [
+    ['All trial streets had their lamps turned off after midnight.', 'FALSE', '只有六條街調暗街燈，另外六條沒有調整。', light, facts],
+    ['Researchers used meters to measure light at ground level.', 'TRUE', '研究員以儀器量度地面光度。', light, facts],
+    ['More moths were recorded near lamps that had been dimmed.', 'TRUE', '調暗街燈附近錄得較多飛蛾。', light, facts],
+    ['Residents on the trial streets reported fewer collisions.', 'NOT GIVEN', '研究沒有提到居民報告的碰撞數目。', light, facts],
+    ['The authors said the results alone were enough to support a citywide change.', 'FALSE', '研究員認為需要在更多環境測試。', light, facts],
+  ]),
+  ...makeQuestions('light-gap-b2', 'reading', 'reading-gap', 'B2', [
+    ['The trial involved _____ streets. (ONE NUMBER)', '12', '研究涵蓋 12 條街。', light],
+    ['The lamps were dimmed after _____. (ONE WORD)', 'midnight', '調暗街燈的時間是午夜後。', light],
+    ['Light readings were taken at _____ level. (ONE WORD)', 'ground', '光度在地面高度量度。', light],
+    ['Researchers recorded more _____ near dimmed lamps. (ONE WORD)', 'moths', '較暗的街燈附近錄得較多飛蛾。', light],
+    ['The team called for further testing on _____ roads. (ONE WORD)', 'busier', '作者建議在更繁忙的道路重做研究。', light],
+  ]),
+  ...makeQuestions('museum-choice-b1', 'listening', 'listening-choice', 'B1', [
+    ['Which entrance should the group use?', 'the side entrance', '正門正在維修，改用側門。', 'The front entrance is being repaired. Use the side entrance, next to the bicycle racks.', ['the front entrance', 'the side entrance', 'the staff entrance']],
+    ['When should the group arrive?', '11:20', '十一點半開場，須提早十分鐘到達。', 'The guide starts at eleven thirty, but arrive ten minutes before that.', ['11:10', '11:30', '11:20']],
+    ['Where can visitors leave their coats?', 'at reception', '外套可寄放在接待處。', 'There are lockers for bags. You can leave your coat at reception.', ['at reception', 'in the lockers', 'in the café']],
+    ['Which gallery is closed today?', 'the pottery gallery', '陶藝展廳因更換展品而關閉。', 'You can visit the photography gallery as usual. The pottery gallery is closed while we change the display.', ['the photography gallery', 'the pottery gallery', 'the transport gallery']],
+    ['What discount can visitors get?', 'a discount on postcards', '折扣只適用於明信片。', 'Your ticket gives you ten percent off postcards. Books and refreshments are full price.', ['a discount on books', 'a discount on drinks', 'a discount on postcards']],
+  ]),
+  ...makeQuestions('walk-gap-b1', 'listening', 'listening-gap', 'B1', [
+    ['Meeting point: beside the _____. (ONE WORD)', 'fountain', '集合地點在噴泉旁。', 'Please meet beside the fountain, rather than at the gate.'],
+    ['Group size: up to _____ people. (ONE NUMBER)', '16', '每組最多 16 人。', 'We can take up to sixteen people in each group.'],
+    ['Bring a bottle of _____. (ONE WORD)', 'water', '參加者要自備清水。', 'We will hand out maps, but please bring a bottle of water.'],
+    ['Lunch stop: the _____. (ONE WORD)', 'orchard', '午餐在果園休息。', 'We will stop for lunch in the orchard before continuing uphill.'],
+    ['Walk finishes at the _____. (ONE WORD)', 'station', '終點是車站。', 'The walk ends at the station, where you can catch a train home.'],
+  ]),
+  ...makeQuestions('soil-choice-b2', 'listening', 'listening-choice', 'B2', [
+    ['Why did the team abandon its first sampling site?', 'Access was unreliable.', '主要問題是下雨時不能進入。', 'The first field was large enough, and we had the owner’s permission. The problem was getting to it after rain.', ['The field was too small.', 'Access was unreliable.', 'The owner refused permission.']],
+    ['Why did the team collect two samples at each point?', 'to check consistency', '重複取樣可核對讀數是否一致。', 'We took a second sample at each point to see whether the readings agreed. It was not a backup in case one went missing.', ['to replace missing samples', 'to test different depths', 'to check consistency']],
+    ['Which measurement varied most?', 'moisture', '酸鹼度相近，變動最大的是濕度。', 'Acidity stayed fairly stable across the site. Colour varied a little, but moisture showed the biggest differences.', ['moisture', 'acidity', 'colour']],
+    ['What limited the researchers’ conclusions?', 'The trial covered one season.', '研究時間只涵蓋一季。', 'We had enough sites for the comparison. The limitation was time: we sampled during spring only.', ['There were too few sites.', 'The trial covered one season.', 'The instruments failed.']],
+    ['What will the team do next?', 'repeat the survey in autumn', '下一步是秋季重做調查。', 'We discussed adding a second region, but our priority is to repeat the survey at the same locations this autumn.', ['buy new equipment', 'add a second region', 'repeat the survey in autumn']],
+  ]),
+  ...makeQuestions('archive-gap-b2', 'listening', 'listening-gap', 'B2', [
+    ['Initial check: look for signs of _____. (ONE WORD)', 'mould', '先檢查有沒有發霉。', 'Before scanning a document, examine its edges for mould, which can spread in storage.'],
+    ['Clean the scanner with a _____ cloth. (ONE WORD)', 'microfibre', '要用超細纖維布清潔掃描器。', 'Use a microfibre cloth on the glass. Paper tissues leave fibres behind.'],
+    ['Place a _____ beside unusually large items when scanning. (ONE WORD)', 'ruler', '尺可讓觀眾知道原件尺寸。', 'For oversized items, put a ruler next to the document so viewers can judge its original size.'],
+    ['File names begin with the collection _____. (ONE WORD)', 'code', '檔名先填館藏代碼。', 'Unlike the old system, each file name starts with the collection code rather than the year.'],
+    ['A second volunteer checks the _____. (ONE WORD)', 'metadata', '另一位義工檢查描述資料。', 'Once a scan has been saved, ask a second volunteer to review its metadata, especially the date and location fields.'],
   ]),
 ]

@@ -1,5 +1,5 @@
 export type Skill = 'reading' | 'listening'
-export type QuestionType = 'true-false-not-given' | 'reading-gap' | 'listening-choice' | 'listening-gap'
+export type QuestionType = 'true-false-not-given' | 'reading-gap' | 'listening-choice' | 'listening-gap' | 'listening-mini'
 export type Level = 'B1' | 'B2'
 
 export interface PracticeQuestion {
@@ -50,8 +50,8 @@ export interface Progress {
 
 export const emptyProgress = (): Progress => ({ practiceAttempts: [], practiceSets: [], wordStreaks: {}, cardRecall: {}, savedWords: [] })
 
-export function getPracticeSet(questions: PracticeQuestion[], skill: Skill, type: QuestionType, level: Level): PracticeQuestion[] {
-  return questions.filter(question => question.skill === skill && question.type === type && question.level === level).slice(0, 5)
+export function getPracticeSet(questions: PracticeQuestion[], skill: Skill, type: QuestionType, level: Level, size = 5): PracticeQuestion[] {
+  return questions.filter(question => question.skill === skill && question.type === type && question.level === level).slice(0, size)
 }
 
 export function recordWordAnswer(progress: Progress, wordId: string, correct: boolean): Progress {

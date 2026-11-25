@@ -20,6 +20,10 @@ const facts = ['TRUE', 'FALSE', 'NOT GIVEN']
 const repair = 'The Hillview Repair Café opens on the first Saturday of each month. Visitors must book in advance and may bring one item to a 25-minute appointment. Volunteers show them how to fix small appliances and clothes. The service is free, although visitors pay for replacement parts. For safety, volunteers do not accept petrol-powered equipment. The waiting area is in the courtyard.'
 const light = 'A pilot study examined street lighting on 12 residential streets. On six streets, lamps were dimmed after midnight. On the other six, lamp settings were unchanged. The team used meters to take readings at ground level and counted insects near each lamp. More moths were recorded near dimmed lamps. The authors recommend repeating the trial on busier roads and in other neighbourhoods before changing lighting across the city.'
 
+const market = 'Welcome to the evening market. We usually set up in the square, but the paving there is being repaired, so tonight we are using the old railway station. The doors open at five, although stalls will not serve customers until half past five. If you want to make a textile bookmark, head to platform two. The musicians are setting up on platform one. Our cook will demonstrate three ways of using leftover bread on platform three. Registration for the workshop closes at six in the evening. You can refill a bottle for free at any of the drinking fountains. Food stalls ask for a two dollar deposit on reusable plates, which you get back when you return them. If you lose anything, ask at the information desk. The last shuttle from the station goes to the town hall rather than the library.'
+
+const seeds = 'Our project examined whether the way seeds are stored affects how many eventually germinate. We were less interested in which species grew fastest. For this pilot we used seeds from a single harvest so that differences in age could not distort the comparison. The storage team divided the seeds into batches and kept one batch at room temperature for comparison. Once the batches were planted, the testing team counted the seedlings each week. The records team checked the spreadsheets and followed up on missing readings. Across the repeat trials, results were most stable for seeds kept in the cool cabinet. We excluded one batch after its container developed a crack. In the next trial we plan to include more species. We will also monitor humidity inside each container instead of relying on a room reading. Once we finish, we will share our findings with local growers.'
+
 export const practiceQuestions: PracticeQuestion[] = [
   ...makeQuestions('library-tf', 'reading', 'true-false-not-given', 'B1', [
     ['The tool library opened in 2021.', 'TRUE', '首句指出開放年份。', library, ['TRUE', 'FALSE', 'NOT GIVEN']],
@@ -161,5 +165,29 @@ export const practiceQuestions: PracticeQuestion[] = [
     ['Place a _____ beside unusually large items when scanning. (ONE WORD)', 'ruler', '尺可讓觀眾知道原件尺寸。', 'For oversized items, put a ruler next to the document so viewers can judge its original size.'],
     ['File names begin with the collection _____. (ONE WORD)', 'code', '檔名先填館藏代碼。', 'Unlike the old system, each file name starts with the collection code rather than the year.'],
     ['A second volunteer checks the _____. (ONE WORD)', 'metadata', '另一位義工檢查描述資料。', 'Once a scan has been saved, ask a second volunteer to review its metadata, especially the date and location fields.'],
+  ]),
+  ...makeQuestions('market-mini-b1', 'listening', 'listening-mini', 'B1', [
+    ['Why was the night market moved?', 'The original site is under repair.', '廣場正維修，所以搬到舊車站。', market, ['The market needs more space.', 'The original site is under repair.', 'The market received noise complaints.']],
+    ['What time do stalls begin serving customers?', '5:30 pm', '五點開門，五點半開始營業。', market, ['5:00 pm', '5:30 pm', '6:00 pm']],
+    ['Where should visitors go for the textile workshop?', 'Platform 2', '紡織工作坊設於二號月台。', market, ['Platform 1', 'Platform 2', 'Platform 3']],
+    ['Where will the musicians perform?', 'Platform 1', '樂手會在一號月台演出。', market, ['Platform 1', 'Platform 2', 'Platform 3']],
+    ['Where can visitors get cooking advice?', 'Platform 3', '烹飪示範在三號月台。', market, ['Platform 1', 'Platform 2', 'Platform 3']],
+    ['Workshop registration closes at _____ pm. (ONE NUMBER)', '6', '工作坊報名晚上六點截止。', market],
+    ['Visitors should bring a _____ for water. (ONE WORD)', 'bottle', '自備水樽便可免費添水。', market],
+    ['The deposit for a reusable plate is _____ dollars. (ONE NUMBER)', '2', '餐碟按金是兩元。', market],
+    ['Lost property: ask at the _____ desk. (ONE WORD)', 'information', '失物可到詢問處查詢。', market],
+    ['Last shuttle destination: the _____ hall. (ONE WORD)', 'town', '末班接駁車前往市政廳。', market],
+  ]),
+  ...makeQuestions('seeds-mini-b2', 'listening', 'listening-mini', 'B2', [
+    ['What question did the project mainly investigate?', 'How storage conditions affect germination.', '研究重點是儲存條件對發芽率的影響。', seeds, ['Which species grows fastest.', 'How storage conditions affect germination.', 'Whether larger seeds cost more to collect.']],
+    ['Why did the team use seeds from one harvest?', 'To keep their age comparable.', '同一批收成可避免種子年齡影響結果。', seeds, ['To keep their age comparable.', 'To avoid weighing each batch.', 'To increase the number of species.']],
+    ['Which team prepared a comparison batch?', 'Storage team', '儲存組在室溫下保留一組以作比較。', seeds, ['Storage team', 'Testing team', 'Records team']],
+    ['Which team counted the seedlings?', 'Testing team', '測試組每星期點算幼苗。', seeds, ['Storage team', 'Testing team', 'Records team']],
+    ['Which team checked for gaps in the data?', 'Records team', '紀錄組發現並跟進缺失讀數。', seeds, ['Storage team', 'Testing team', 'Records team']],
+    ['The most stable results came from the _____ cabinet. (ONE WORD)', 'cool', '低溫櫃的結果最穩定。', seeds],
+    ['One batch was excluded after its container developed a _____. (ONE WORD)', 'crack', '容器出現裂縫，該組樣本因此被排除。', seeds],
+    ['The team will increase the number of _____ in the next trial. (ONE WORD)', 'species', '下一輪會加入更多品種。', seeds],
+    ['The researchers will track _____ inside each container. (ONE WORD)', 'humidity', '下次會直接量度容器內濕度。', seeds],
+    ['The results will be shared with local _____. (ONE WORD)', 'growers', '研究結果會與本地種植者分享。', seeds],
   ]),
 ]

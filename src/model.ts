@@ -1,5 +1,5 @@
 export type Skill = 'reading' | 'listening'
-export type QuestionType = 'true-false-not-given' | 'reading-gap' | 'listening-choice' | 'listening-gap' | 'listening-mini'
+export type QuestionType = 'true-false-not-given' | 'reading-gap' | 'reading-mini' | 'listening-choice' | 'listening-gap' | 'listening-mini'
 export type Level = 'B1' | 'B2'
 
 export interface PracticeQuestion {

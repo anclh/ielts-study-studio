@@ -24,6 +24,25 @@ const market = 'Welcome to the evening market. We usually set up in the square, 
 
 const seeds = 'Our project examined whether the way seeds are stored affects how many eventually germinate. We were less interested in which species grew fastest. For this pilot we used seeds from a single harvest so that differences in age could not distort the comparison. The storage team divided the seeds into batches and kept one batch at room temperature for comparison. Once the batches were planted, the testing team counted the seedlings each week. The records team checked the spreadsheets and followed up on missing readings. Across the repeat trials, results were most stable for seeds kept in the cool cabinet. We excluded one batch after its container developed a crack. In the next trial we plan to include more species. We will also monitor humidity inside each container instead of relying on a room reading. Once we finish, we will share our findings with local growers.'
 
+const filmClub = `A. A cinema club at Mill Lane Library grew out of a survey about winter activities. Residents said there were few affordable events after work, so the library decided to use its unused meeting room for monthly screenings. A local camera shop lent the club a projector for its first season.
+
+B. Screenings take place on the last Thursday of each month. Anyone aged sixteen or over can attend. Tickets are free, but seats must be reserved online or at the library desk. The doors open at six, and the film starts half an hour later. Anyone who no longer needs a ticket can return it so that somebody on the waiting list can use it.
+
+C. After the film, a volunteer hosts a twenty-minute discussion. Visitors may stay and listen even if they do not want to speak. The first season features short films about neighbourhood life. At the end of each session, visitors can suggest themes for the next season on a postcard.
+
+D. The club also offers a Saturday workshop for people interested in making films. Participants work in pairs and use their own phones to record a short interview. The library lends microphones during the workshop. Unlike screenings, workshops have a small fee that covers printed materials.`
+
+const deliveryHub = `A. After shopkeepers complained that deliveries were blocking the narrow streets of Bellford, the council opened a consolidation hub on the edge of town. Carriers can leave parcels at the hub, where staff combine loads bound for nearby addresses. Electric cargo bikes then make the final trips. The pilot asked whether street activity could be reduced without making deliveries less reliable.
+
+B. Rather than counting all vehicles, the evaluation team recorded the number of minutes delivery vehicles occupied loading bays. Several small vans arriving separately can use more bay time than one vehicle carrying an equivalent load. Observers also logged missed delivery windows. They collected data on two shopping streets before and after the change and used a third street, where the hub did not operate, as a comparison.
+
+C. Bay occupancy fell on the streets served by the hub, but on-time delivery showed little overall change. The average concealed a difference between businesses: cafés that received chilled goods had more late arrivals, while bookshops had fewer. The hub had little refrigerated storage, so chilled consignments often waited for a direct transfer between the carrier and the bike team.
+
+D. The authors advise against treating the first results as grounds for a citywide rollout. The trial was conducted during a mild spring, and one shopping street was undergoing building works. The team recommends repeating its observations in winter and adding sensors at the hub to measure how long parcels wait before departure. That would help separate delays inside the hub from delays on the streets.`
+
+const filmHeadings = ['How the club began', 'Practical details for filmgoers', 'Learning how to make a film', 'Buying equipment for the library']
+const hubHeadings = ['How the pilot was evaluated', 'Contrasting results for different shops', 'Why more evidence is needed', 'How bikes were selected']
+
 export const practiceQuestions: PracticeQuestion[] = [
   ...makeQuestions('library-tf', 'reading', 'true-false-not-given', 'B1', [
     ['The tool library opened in 2021.', 'TRUE', '首句指出開放年份。', library, ['TRUE', 'FALSE', 'NOT GIVEN']],
@@ -189,5 +208,29 @@ export const practiceQuestions: PracticeQuestion[] = [
     ['The team will increase the number of _____ in the next trial. (ONE WORD)', 'species', '下一輪會加入更多品種。', seeds],
     ['The researchers will track _____ inside each container. (ONE WORD)', 'humidity', '下次會直接量度容器內濕度。', seeds],
     ['The results will be shared with local _____. (ONE WORD)', 'growers', '研究結果會與本地種植者分享。', seeds],
+  ]),
+  ...makeQuestions('cinema-mini-b1', 'reading', 'reading-mini', 'B1', [
+    ['Which heading best fits paragraph A?', 'How the club began', 'A 段交代問卷調查如何促成電影會。', filmClub, filmHeadings],
+    ['Which heading best fits paragraph B?', 'Practical details for filmgoers', 'B 段介紹放映時間和預約方式。', filmClub, filmHeadings],
+    ['Which heading best fits paragraph D?', 'Learning how to make a film', 'D 段介紹拍攝短片的工作坊。', filmClub, filmHeadings],
+    ['The club initially borrowed a projector from a shop.', 'TRUE', 'A 段指出相機店借出放映機。', filmClub, facts],
+    ['People must pay to book a screening ticket.', 'FALSE', 'B 段指出戲票免費。', filmClub, facts],
+    ['The volunteer who leads the discussion works at the library.', 'NOT GIVEN', 'C 段沒有交代義工的職業。', filmClub, facts],
+    ['Films are shown on the last _____ of each month. (ONE WORD)', 'Thursday', 'B 段寫明每月最後一個星期四放映。', filmClub],
+    ['Visitors can submit suggestions on a _____. (ONE WORD)', 'postcard', 'C 段指出可用明信片提交建議。', filmClub],
+    ['Workshop participants use their own _____ to record an interview. (ONE WORD)', 'phones', 'D 段指出參加者自備手機拍攝。', filmClub],
+    ['What does the workshop fee pay for?', 'Printed materials', 'D 段指出費用用來支付印刷材料。', filmClub, ['Microphone rental', 'Film tickets', 'Printed materials']],
+  ]),
+  ...makeQuestions('deliveries-mini-b2', 'reading', 'reading-mini', 'B2', [
+    ['Which heading best fits paragraph B?', 'How the pilot was evaluated', 'B 段說明研究採用的指標及對照街道。', deliveryHub, hubHeadings],
+    ['Which heading best fits paragraph C?', 'Contrasting results for different shops', 'C 段比較咖啡店和書店的送貨結果。', deliveryHub, hubHeadings],
+    ['Which heading best fits paragraph D?', 'Why more evidence is needed', 'D 段提出研究限制與後續驗證方法。', deliveryHub, hubHeadings],
+    ['The study included a street outside the hub’s delivery scheme.', 'TRUE', 'B 段指出有一條未參與計劃的街道作對照。', deliveryHub, facts],
+    ['Bookshops experienced more late deliveries during the trial.', 'FALSE', 'C 段指出書店的遲送次數少了。', deliveryHub, facts],
+    ['Most carriers were paid to participate in the pilot.', 'NOT GIVEN', '文中沒有說明承運商是否獲得報酬。', deliveryHub, facts],
+    ['Instead of vehicle totals, the team measured time spent in loading _____. (ONE WORD)', 'bays', 'B 段說主指標是裝卸區的佔用時間。', deliveryHub],
+    ['The hub had limited capacity for _____ storage. (ONE WORD)', 'refrigerated', 'C 段解釋冷藏儲存容量不足。', deliveryHub],
+    ['The authors suggest installing _____ to track waiting times. (ONE WORD)', 'sensors', 'D 段建議用感應器量度包裹等待時間。', deliveryHub],
+    ['Why do the authors recommend repeating observations in winter?', 'The trial covered a single mild season.', 'D 段指出試驗在和暖的春季進行，冬季觀察可檢查結果是否適用。', deliveryHub, ['The trial covered a single mild season.', 'Winter data from the comparison street were lost.', 'Most bookshops were closed in spring.']],
   ]),
 ]

@@ -10,18 +10,19 @@ interface Props {
 const typeNames: Record<QuestionType, string> = {
   'true-false-not-given': '判斷題',
   'reading-gap': '閱讀填空',
+  'reading-mini': '迷你測驗 · 混合題型',
   'listening-choice': '聽力選擇',
   'listening-gap': '聽力填空',
   'listening-mini': '迷你測驗 · 混合題型',
 }
 const types: Record<Skill, QuestionType[]> = {
-  reading: ['true-false-not-given', 'reading-gap'],
+  reading: ['reading-mini', 'true-false-not-given', 'reading-gap'],
   listening: ['listening-mini', 'listening-choice', 'listening-gap'],
 }
 
 export function Practice({ questions, progress, onProgressChange }: Props) {
   const [skill, setSkill] = useState<Skill>('reading')
-  const [type, setType] = useState<QuestionType>('true-false-not-given')
+  const [type, setType] = useState<QuestionType>(types.reading[0])
   const [level, setLevel] = useState<Level>('B1')
   const [selectedSet, setSelectedSet] = useState<number | null>(null)
   const [set, setSet] = useState<PracticeQuestion[] | null>(null)
@@ -45,7 +46,7 @@ export function Practice({ questions, progress, onProgressChange }: Props) {
     setSelectedSet(null)
   }
   const matching = questions.filter(question => question.skill === skill && question.type === type && question.level === level)
-  const setSize = type === 'listening-mini' ? 10 : 5
+  const setSize = type === 'reading-mini' || type === 'listening-mini' ? 10 : 5
   const setCount = Math.floor(matching.length / setSize)
   const completed = progress.practiceSets.filter(result => result.skill === skill && result.type === type && result.level === level).length
   const activeSet = selectedSet ?? completed % Math.max(1, setCount)
@@ -103,7 +104,7 @@ export function Practice({ questions, progress, onProgressChange }: Props) {
     return <main className="main-content" id="main"><div className="session-top"><button className="text-button" onClick={() => { window.speechSynthesis?.cancel(); setSet(null) }}>← 返回選題</button><span>{skill === 'reading' ? '閱讀' : '聽力'} · {typeNames[type]}</span></div>
       <div className="session-progress"><div><span>第 {index + 1} 題，共 {setSize} 題</span><strong>{Math.round(index / setSize * 100)}% 完成</strong></div><div className="progress-track"><span style={{ width: `${index / setSize * 100}%` }} /></div></div>
       <section className="question-card"><span className="eyebrow">QUESTION {String(index + 1).padStart(2, '0')} / {String(setSize).padStart(2, '0')}</span><h1>{current.prompt}</h1>
-        {current.passage && <div className="source-box"><div className="source-heading"><span>閱讀短文</span><span>READING PASSAGE</span></div><p>{current.passage}</p></div>}
+        {current.passage && <div className="source-box"><div className="source-heading"><span>閱讀短文</span><span>READING PASSAGE</span></div><div lang="en">{current.passage.split('\n\n').map(paragraph => <p key={paragraph} style={{ marginBottom: 12 }}>{paragraph}</p>)}</div></div>}
         {current.transcript && <div className="audio-box"><div className="audio-icon" aria-hidden="true">♫</div><div><strong>聽力練習</strong><p>{type === 'listening-mini' ? '全組共用同一段語音。播放器會繼續播放，亦可從頭重播。' : '播放後選擇或填寫答案。可重播。'}</p></div><button className="secondary-button" type="button" onClick={() => speak(current.transcript!)}>{speechAvailable ? '▶ 播放語音' : '無語音可用'}</button></div>}
         {current.transcript && <div className="transcript-control"><button className="text-button" type="button" onClick={() => setShowTranscript(!showTranscript)} aria-expanded={showTranscript}>{showTranscript ? '隱藏文字稿' : '顯示文字稿'}</button>{showTranscript && <div className="transcript">{current.transcript}</div>}</div>}
         <div className="answer-area"><div className="field-label">你的答案</div>{current.options ? <div className="option-list" role="radiogroup" aria-label="答案選項">{current.options.map(option => <label className={`option ${answer === option ? 'option--selected' : ''}`} key={option}><input type="radio" name="answer" value={option} checked={answer === option} disabled={submitted} onChange={() => setAnswer(option)} /><span className="radio-dot" />{option}</label>)}</div> : <input className="answer-input" value={answer} disabled={submitted} onChange={event => setAnswer(event.target.value)} onKeyDown={event => { if (event.key === 'Enter') submit() }} placeholder="在這裡輸入答案" aria-label="你的答案" />}</div>
@@ -115,7 +116,7 @@ export function Practice({ questions, progress, onProgressChange }: Props) {
   }
 
   const available = matching.length
-  return <main className="main-content" id="main"><div className="page-intro"><span className="eyebrow">FOCUSED PRACTICE</span><h1>挑一種題型，<br /><em>練出自己的節奏。</em></h1><p>按題型溫習，或選擇 10 題聽力迷你測驗。每題完成後立即看詳解。</p></div>
+  return <main className="main-content" id="main"><div className="page-intro"><span className="eyebrow">FOCUSED PRACTICE</span><h1>挑一種題型，<br /><em>練出自己的節奏。</em></h1><p>按題型溫習，或選擇 10 題閱讀或聽力迷你測驗。每題完成後立即看詳解。</p></div>
     <div className="practice-layout"><section className="panel picker-panel"><div className="section-title"><span className="step-number">01</span><div><h2>今天想練哪一科？</h2><p>選好科目，再挑一種題型。</p></div></div>
       <div className="skill-grid"><button className={`skill-card skill-card--reading ${skill === 'reading' ? 'skill-card--active' : ''}`} onClick={() => pickSkill('reading')} aria-pressed={skill === 'reading'}><span className="skill-symbol">▤</span><strong>閱讀 Reading</strong><small>看短文，抓關鍵線索</small></button><button className={`skill-card skill-card--listening ${skill === 'listening' ? 'skill-card--active' : ''}`} onClick={() => pickSkill('listening')} aria-pressed={skill === 'listening'}><span className="skill-symbol">◖))</span><strong>聽力 Listening</strong><small>聽重點，練聽答反應</small></button></div>
       <div className="divider" /><div className="section-title"><span className="step-number">02</span><div><h2>選擇題型</h2><p>每一組都是短題練習。</p></div></div><div className="type-grid">{types[skill].map(item => <button key={item} className={`type-button ${type === item ? 'type-button--active' : ''}`} onClick={() => pickType(item)} aria-pressed={type === item}><span>{typeNames[item]}</span><span aria-hidden="true">↗</span></button>)}</div>

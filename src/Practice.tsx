@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { answerIsCorrect, completePracticeSet, getPracticeSet, type Level, type PracticeQuestion, type Progress, type QuestionType, type Skill } from './model'
 
 interface Props {
+  skill: Skill
   questions: PracticeQuestion[]
   progress: Progress
   onProgressChange: (progress: Progress) => void
@@ -20,9 +21,8 @@ const types: Record<Skill, QuestionType[]> = {
   listening: ['listening-mini', 'listening-choice', 'listening-gap'],
 }
 
-export function Practice({ questions, progress, onProgressChange }: Props) {
-  const [skill, setSkill] = useState<Skill>('reading')
-  const [type, setType] = useState<QuestionType>(types.reading[0])
+export function Practice({ skill, questions, progress, onProgressChange }: Props) {
+  const [type, setType] = useState<QuestionType>(types[skill][0])
   const [level, setLevel] = useState<Level>('B1')
   const [selectedSet, setSelectedSet] = useState<number | null>(null)
   const [set, setSet] = useState<PracticeQuestion[] | null>(null)
@@ -34,12 +34,6 @@ export function Practice({ questions, progress, onProgressChange }: Props) {
   useEffect(() => () => window.speechSynthesis?.cancel(), [])
   const speechAvailable = typeof window !== 'undefined' && 'speechSynthesis' in window
 
-  const pickSkill = (next: Skill) => {
-    setSkill(next)
-    setType(types[next][0])
-    setLevel('B1')
-    setSelectedSet(null)
-  }
   const pickType = (next: QuestionType) => {
     setType(next)
     setLevel('B1')
@@ -111,16 +105,22 @@ export function Practice({ questions, progress, onProgressChange }: Props) {
         {submitted && <div className={`feedback ${answerIsCorrect(current, answer) ? 'feedback--good' : 'feedback--review'}`} role="status"><strong>{answerIsCorrect(current, answer) ? '答對了！' : `再看看：正確答案是 ${current.answer}`}</strong><p>{current.explanation}</p></div>}
         <div className="question-actions">{submitted ? <button className="primary-button" onClick={next}>{index === setSize - 1 ? '看本次結果' : '下一題'} <span aria-hidden="true">→</span></button> : <button className="primary-button" onClick={submit} disabled={!answer.trim()}>送出答案 <span aria-hidden="true">→</span></button>}</div>
       </section>
-      <p className="fine-print">聽力使用裝置語音朗讀的原創示範題，文字稿可隨時查看。</p>
+      {skill === 'listening' && <p className="fine-print">聽力使用裝置語音朗讀，文字稿可隨時查看。</p>}
     </main>
   }
 
   const available = matching.length
-  return <main className="main-content" id="main"><div className="page-intro"><span className="eyebrow">FOCUSED PRACTICE</span><h1>挑一種題型，<br /><em>練出自己的節奏。</em></h1><p>按題型溫習，或選擇 10 題閱讀或聽力迷你測驗。每題完成後立即看詳解。</p></div>
-    <div className="practice-layout"><section className="panel picker-panel"><div className="section-title"><span className="step-number">01</span><div><h2>今天想練哪一科？</h2><p>選好科目，再挑一種題型。</p></div></div>
-      <div className="skill-grid"><button className={`skill-card skill-card--reading ${skill === 'reading' ? 'skill-card--active' : ''}`} onClick={() => pickSkill('reading')} aria-pressed={skill === 'reading'}><span className="skill-symbol">▤</span><strong>閱讀 Reading</strong><small>看短文，抓關鍵線索</small></button><button className={`skill-card skill-card--listening ${skill === 'listening' ? 'skill-card--active' : ''}`} onClick={() => pickSkill('listening')} aria-pressed={skill === 'listening'}><span className="skill-symbol">◖))</span><strong>聽力 Listening</strong><small>聽重點，練聽答反應</small></button></div>
-      <div className="divider" /><div className="section-title"><span className="step-number">02</span><div><h2>選擇題型</h2><p>每一組都是短題練習。</p></div></div><div className="type-grid">{types[skill].map(item => <button key={item} className={`type-button ${type === item ? 'type-button--active' : ''}`} onClick={() => pickType(item)} aria-pressed={type === item}><span>{typeNames[item]}</span><span aria-hidden="true">↗</span></button>)}</div>
-      <div className="divider" /><div className="section-title"><span className="step-number">03</span><div><h2>選擇程度</h2><p>從適合自己的難度開始。</p></div></div><div className="level-row">{(['B1', 'B2'] as Level[]).map(item => <button key={item} className={`level-chip ${level === item ? 'level-chip--active' : ''}`} onClick={() => { setLevel(item); setSelectedSet(null) }} aria-pressed={level === item}>{item} <small>{item === 'B1' ? '基礎進階' : '中高階'}</small></button>)}</div>
+  const isReading = skill === 'reading'
+  return <main className="main-content" id="main">
+    <div className="page-intro">
+      <h1>{isReading ? '閱讀 Reading' : '聽力 Listening'}</h1>
+      <p>{isReading ? '閱讀短文，找出支持答案的線索。' : '播放語音，練習辨認重點和細節。'} 選擇 10 題迷你測驗或 5 題分類練習。</p>
+    </div>
+    <div className="practice-layout">
+      <section className="panel picker-panel">
+        <div className="section-title"><div><h2>選擇題型</h2></div></div>
+        <div className="type-grid">{types[skill].map(item => <button key={item} className={`type-button ${type === item ? 'type-button--active' : ''}`} onClick={() => pickType(item)} aria-pressed={type === item}><span>{typeNames[item]}</span><span aria-hidden="true">↗</span></button>)}</div>
+      <div className="divider" /><div className="section-title"><div><h2>選擇程度</h2><p>從適合自己的難度開始。</p></div></div><div className="level-row">{(['B1', 'B2'] as Level[]).map(item => <button key={item} className={`level-chip ${level === item ? 'level-chip--active' : ''}`} onClick={() => { setLevel(item); setSelectedSet(null) }} aria-pressed={level === item}>{item} <small>{item === 'B1' ? '基礎進階' : '中高階'}</small></button>)}</div>
     </section><aside className="start-panel"><div className="start-art" aria-hidden="true"><span className="art-orbit art-orbit--one" /><span className="art-orbit art-orbit--two" /><span className="art-letter">{skill === 'reading' ? 'R' : 'L'}</span><span className="art-spark">✦</span></div><span className="eyebrow">YOUR NEXT SET</span><h2>{skill === 'reading' ? '閱讀' : '聽力'} · {typeNames[type]}</h2><p>{setSize} 題 · {level} 程度 · 即時詳解</p>{setCount > 1 && <div className="level-row" aria-label="選擇練習組別">
       {Array.from({ length: setCount }, (_, number) => <button key={number} className={`level-chip ${activeSet === number ? 'level-chip--active' : ''}`} aria-pressed={activeSet === number} onClick={() => setSelectedSet(number)}>第 {number + 1} 組</button>)}
     </div>}<div className="start-spacer" /><div className="available-note">{available >= setSize ? '這組題目準備好了' : '這個程度目前沒有完整題組，請選其他程度。'}</div><button className="primary-button primary-button--wide" onClick={start} disabled={available < setSize}>開始練習 <span aria-hidden="true">→</span></button></aside></div>
